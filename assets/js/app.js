@@ -4,6 +4,7 @@
   const D = window.SITE_DATA;
   const $ = (s, r = document) => r.querySelector(s);
   const view = $("#view");
+  const LOCAL = location.protocol === "file:"; // le listing de dossier ne marche qu'en local
 
   /* ---------- icons ---------- */
   const I = {
@@ -294,7 +295,7 @@
           <div class="btns">
             ${it.link ? `<a class="btn primary" href="${esc(it.link)}" target="_blank" rel="noopener">${I.link} ${esc(it.linkText || "Voir le produit")}</a>` : ""}
             ${f ? `<a class="btn" href="#/fournisseur/${f.id}">${I.folder} Dossier fournisseur (${f.files.length})</a>` : ""}
-            ${f ? `<a class="btn" href="data/Fournisseurs_Bornes_Multifonction/${encodeURIComponent(f.folder)}/" target="_blank">${I.folder} Ouvrir le dossier</a>` : ""}
+            ${f && LOCAL ? `<a class="btn" href="data/Fournisseurs_Bornes_Multifonction/${encodeURIComponent(f.folder)}/" target="_blank">${I.folder} Ouvrir le dossier</a>` : ""}
           </div>
         </div>
       </div>
@@ -341,7 +342,7 @@
     const it0 = f.items[0];
     view.innerHTML = `
       <div class="page-head"><div><h1>${esc(f.name)}</h1><p>${esc(f.contact)}</p></div>
-        <a class="btn" href="data/Fournisseurs_Bornes_Multifonction/${encodeURIComponent(f.folder)}/" target="_blank">${I.folder} Ouvrir le dossier</a></div>
+        ${LOCAL ? `<a class="btn" href="data/Fournisseurs_Bornes_Multifonction/${encodeURIComponent(f.folder)}/" target="_blank">${I.folder} Ouvrir le dossier</a>` : ""}</div>
       ${it0 && it0.contact ? `<div class="card" style="padding:14px 18px"><div class="contact">${I.user}<div>${linkify(it0.contact)}</div></div></div>` : ""}
       ${f.items.length ? section("Articles dans le tableau", f.items.length) + `<div class="cards">${f.items.map(articleCard).join("")}</div>` : ""}
       ${kinds.map(([k, l]) => { const list = f.files.filter((x) => x.kind === k); return list.length ? section(l, list.length) + gallery(list) : ""; }).join("")}`;
