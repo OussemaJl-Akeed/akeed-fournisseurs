@@ -1,5 +1,5 @@
 window.SITE_DATA = {
- "generated": "20/11/2026 11:18",
+ "generated": "20/11/2026 11:20",
  "excel": "data/Fournisseurs_Bornes_Multifonction.xlsx",
  "sheets": [
   {
