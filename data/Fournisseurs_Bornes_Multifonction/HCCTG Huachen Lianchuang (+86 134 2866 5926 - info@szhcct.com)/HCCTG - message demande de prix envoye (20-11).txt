@@ -1,0 +1,20 @@
+Hello,
+
+We are interested in your products and would like to receive your best price offer for the following quantities:
+
+1) 1000 pcs - Android banking POS terminal, EMV L1 & L2 certified (PCI PTS preferred)
+   Models we looked at: Z500 and Z60A
+2) 500 pcs - Android non-banking POS terminal (58mm printer, QR scan, 4G/WiFi) - please recommend a model
+3) 50 pcs - Kiosk printer (embedded, 80mm, auto cutter)
+   Models we looked at: HCC-QR34, HCC-K37E, HX216-II (A4/A5)
+4) 400 pcs - Bluetooth receipt printer (80mm)
+   Models we looked at: HCC-POS896 (USB+LAN+Bluetooth), HCC-POS830
+
+For each item, could you please send:
+- Unit price for the quantity above (EXW and FOB Shenzhen)
+- Valid EMV / PCI certificates for the banking POS
+- Datasheet, SDK availability, warranty period and lead time
+
+Also: do you offer a SoftPOS solution (Tap to Pay on Android phones)?
+
+Thank you.

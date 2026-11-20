@@ -1,0 +1,18 @@
+Hello,
+
+We are interested in your products and would like to receive your best price offer for the following quantities:
+
+1) 1000 pcs - Android banking POS terminal, EMV L1 & L2 certified (PCI PTS preferred) - if available in your range
+2) 500 pcs - Android non-banking POS terminal (58mm printer, QR scan, 4G/WiFi) - if available in your range
+3) 50 pcs - Kiosk printer (embedded, 80mm, auto cutter)
+   Models we looked at: PM315
+4) 400 pcs - Bluetooth receipt printer (80mm)
+   Models we looked at: RP350 / ACE H2 (Bluetooth version)
+
+For each item, could you please send:
+- Unit price for the quantity above (EXW and FOB)
+- Datasheet, SDK availability, warranty period and lead time
+
+Also: do you offer a SoftPOS solution (Tap to Pay on Android phones)?
+
+Thank you.

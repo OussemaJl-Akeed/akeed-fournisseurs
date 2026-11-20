@@ -1,0 +1,18 @@
+AKEED - Site Fournisseurs (Bornes multifonction, POS & imprimantes)
+Prod by Oussema Jl
+===================================================================
+
+OUVRIR LE SITE
+  Double-clic sur "index.html" (ou "Ouvrir le site.bat").
+  Fonctionne hors ligne, dans Chrome / Edge.
+
+CONTENU DU DOSSIER
+  index.html                 -> page d'accueil du site
+  assets\                    -> logo, style, scripts, photos extraites de l'Excel
+  data\                      -> COPIE du dossier Fournisseurs_Bornes_Multifonction
+                                + copie du tableau Excel (les originaux du Bureau ne sont pas touches)
+  outils\generer_site.py     -> script de generation
+
+METTRE A JOUR APRES MODIFICATION DE L'EXCEL OU DU DOSSIER
+  Double-clic sur "Mettre a jour le site.bat"
+  (recopie les donnees du Bureau et regenere le site).

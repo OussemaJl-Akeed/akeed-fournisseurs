@@ -1,0 +1,22 @@
+Subject: Price request - Android POS terminals and printers
+
+Hello,
+
+We are interested in your products and would like to receive your best price offer for the following quantities:
+
+1) 1000 pcs - Android banking POS terminal, EMV L1 & L2 certified (PCI PTS preferred)
+   Models we looked at: P3H
+2) 500 pcs - Android non-banking POS terminal (58mm printer, QR scan, 4G/WiFi)
+   Models we looked at: V3
+3) 50 pcs - Kiosk printer (embedded, 80mm, auto cutter) - if available in your range
+4) 400 pcs - Bluetooth receipt printer (80mm)
+   Models we looked at: 80mm Kitchen Cloud Printer
+
+For each item, could you please send:
+- Unit price for the quantity above (EXW and FOB)
+- Valid EMV / PCI certificates for the banking POS
+- Datasheet, SDK availability, warranty period and lead time
+
+Also: do you offer a SoftPOS solution (Tap to Pay on Android phones)?
+
+Thank you.
