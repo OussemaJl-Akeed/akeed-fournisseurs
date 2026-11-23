@@ -1,0 +1,21 @@
+LCDKIOSK - devis reçu par WhatsApp (groupe "Ousséma Jl's Project"), Junied Chowdhury, 19/11/2026 10:57-11:04
+
+Le module de paiement cash (billets TND, pièces, rendu de monnaie) n'est PAS possible chez eux.
+
+Configuration proposée :
+- Écran 21.5" self-service, 1920 x 1080 Full HD, portrait, 1000 nits
+- Tactile capacitif PCAP 10 points, verre trempé anti-reflet
+- Windows 11, Intel Core i3, 8 Go RAM, 64 Go
+- Imprimante thermique 80 mm
+- Scanner QR 2D / code-barres
+- Ethernet + Wi-Fi
+- Boîtier acier galvanisé extérieur, IP65
+- Combiné téléphonique SIP filaire (modèle i16S)
+
+Prix :
+- AVEC combiné SIP : 1 pièce 2 312 USD / 10 pièces 2 143 USD par pièce
+- SANS combiné SIP : 1 pièce 2 190 USD / 10 pièces 2 023 USD par pièce
+
+Conditions : prix avec emballage bois, hors transport. FOB impossible pour la Tunisie. Transport DDP porte-à-porte possible si adresse complète donnée (échantillon par avion, gros volume par bateau). Junied demande quelle option on préfère + l'adresse de livraison (pas encore donnée ; réponse envoyée : "Thank you.").
+
+Relu le 23/11/2026 : aucun nouveau message de Junied (+86 131 9309 1332) depuis le 19/11.
