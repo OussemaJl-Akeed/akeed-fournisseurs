@@ -5,6 +5,15 @@ Prod by Oussema Jl
 OUVRIR LE SITE
   Double-clic sur "index.html" (ou "Ouvrir le site.bat").
   Fonctionne hors ligne, dans Chrome / Edge.
+  Le site demande un MOT DE PASSE : les donnees (prix, fournisseurs, remarques)
+  sont chiffrees dans assets\js\data.enc.js et illisibles sans ce mot de passe.
+  Fermer l'onglet ou cliquer sur le bouton de deconnexion = deconnexion.
+
+MOT DE PASSE
+  Changer le mot de passe : double-clic sur "Changer le mot de passe.bat".
+  Le mot de passe est garde seulement sur ce PC (outils\.motdepasse),
+  il n'est jamais envoye sur GitHub. Ne pas partager ce fichier.
+  Attention : les photos / videos / PDF du dossier data\ ne sont PAS chiffres.
 
 CONTENU DU DOSSIER
   index.html                 -> page d'accueil du site

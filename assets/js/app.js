@@ -1,7 +1,7 @@
 /* Akeed · Fournisseurs — Prod by Oussema Jl */
-(function () {
+// démarré par auth.js une fois les données déchiffrées avec le mot de passe
+window.AKEED_START = function (D) {
   "use strict";
-  const D = window.SITE_DATA;
   const $ = (s, r = document) => r.querySelector(s);
   const view = $("#view");
   const LOCAL = location.protocol === "file:"; // le listing de dossier ne marche qu'en local
@@ -563,4 +563,4 @@
   buildNav();
   window.addEventListener("hashchange", route);
   route();
-})();
+};

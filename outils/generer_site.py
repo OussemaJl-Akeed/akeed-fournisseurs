@@ -3,11 +3,14 @@
 Génère / met à jour le site Akeed – Fournisseurs.
   1) copie le dossier Bureau\\Fournisseurs_Bornes_Multifonction + le fichier Excel dans  ..\\data
   2) extrait les photos du tableau Excel dans ..\\assets\\excel
-  3) écrit ..\\assets\\js\\data.js (toutes les feuilles, articles, fichiers)
+  3) écrit ..\\assets\\js\\data.enc.js : toutes les feuilles, articles, fichiers,
+     CHIFFRÉS avec le mot de passe du site (AES-256-GCM, clé PBKDF2-SHA256)
 Relancer après chaque mise à jour du tableau :  python outils\\generer_site.py
+Changer le mot de passe :  python outils\\generer_site.py --nouveau-mot-de-passe
+Le mot de passe est gardé seulement sur ce PC (outils\\.motdepasse), jamais envoyé sur GitHub.
 Prod by Oussema Jl
 """
-import json, os, re, shutil, sys
+import base64, getpass, json, os, re, shutil, sys
 from pathlib import Path
 from urllib.parse import quote
 import openpyxl
@@ -20,6 +23,8 @@ DATA = SITE / "data"
 DST_DIR = DATA / "Fournisseurs_Bornes_Multifonction"
 DST_XLSX = DATA / "Fournisseurs_Bornes_Multifonction.xlsx"
 EXCEL_IMG = SITE / "assets" / "excel"
+PWD_FILE = SITE / "outils" / ".motdepasse"
+PBKDF2_ITER = 310000
 
 IMG = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp"}
 VID = {".mp4", ".webm", ".mov", ".m4v"}
@@ -216,6 +221,42 @@ def extract_sheets(folders):
     return sheets
 
 
+def get_password(new=False):
+    """Mot de passe du site : variable AKEED_SITE_PASSWORD, sinon outils\\.motdepasse, sinon on le demande."""
+    env = os.environ.get("AKEED_SITE_PASSWORD")
+    if env:
+        return env
+    if not new and PWD_FILE.exists():
+        pwd = PWD_FILE.read_text(encoding="utf-8").strip()
+        if pwd:
+            return pwd
+    print("\n=== Mot de passe du site ===")
+    print("(rien ne s'affiche pendant la saisie, c'est normal)")
+    while True:
+        p1 = getpass.getpass("Nouveau mot de passe : ")
+        if len(p1) < 8:
+            print("  -> au moins 8 caractères, recommence.")
+            continue
+        if getpass.getpass("Confirmer le mot de passe : ") != p1:
+            print("  -> les deux mots de passe sont différents, recommence.")
+            continue
+        break
+    PWD_FILE.write_text(p1, encoding="utf-8")
+    print("Mot de passe enregistré sur ce PC (outils\\.motdepasse, jamais envoyé sur GitHub).\n")
+    return p1
+
+
+def encrypt(plain: bytes, password: str) -> dict:
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    salt, iv = os.urandom(16), os.urandom(12)
+    key = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=PBKDF2_ITER).derive(password.encode("utf-8"))
+    ct = AESGCM(key).encrypt(iv, plain, None)
+    b64 = lambda b: base64.b64encode(b).decode("ascii")
+    return {"v": 1, "iter": PBKDF2_ITER, "salt": b64(salt), "iv": b64(iv), "data": b64(ct)}
+
+
 def main():
     copy_data()
     folders = scan_folders()
@@ -226,9 +267,14 @@ def main():
         "sheets": sheets,
         "folders": folders,
     }
-    js = SITE / "assets" / "js" / "data.js"
-    js.parent.mkdir(parents=True, exist_ok=True)
-    js.write_text("window.SITE_DATA = " + json.dumps(data, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
+    js_dir = SITE / "assets" / "js"
+    js_dir.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+    enc = encrypt(payload, get_password("--nouveau-mot-de-passe" in sys.argv))
+    (js_dir / "data.enc.js").write_text("window.SITE_ENC = " + json.dumps(enc) + ";\n", encoding="utf-8")
+    old_plain = js_dir / "data.js"
+    if old_plain.exists():
+        old_plain.unlink()  # ancienne version NON chiffrée
     n = sum(len(s["items"]) for s in sheets)
     nf = sum(len(f["files"]) for f in folders)
     print(f"OK : {len(sheets)} feuilles, {n} articles, {len(folders)} fournisseurs, {nf} fichiers")

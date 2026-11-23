@@ -354,3 +354,22 @@ details.more summary{cursor:pointer;font-weight:700;color:var(--blue-2);padding:
 .btn.sm{padding:6px 11px;font-size:12.5px}
 .btn.sm svg{width:15px;height:15px}
 @media (max-width:640px){.bcat-head{flex-wrap:wrap}.bcat-stats{flex-direction:row;gap:14px;text-align:left}.bcards{grid-template-columns:1fr}}
+
+/* ---------- connexion ---------- */
+body.locked .app,body.locked .modal{display:none}
+.login{min-height:100vh;display:grid;place-items:center;padding:24px 16px;background:radial-gradient(circle at 85% 10%,rgba(141,198,63,.35),transparent 40%),linear-gradient(135deg,#0f3266 0%,#1d5fae 60%,#2f7bd6 100%)}
+.login[hidden]{display:none}
+.login-box{width:100%;max-width:380px;background:var(--surface);color:var(--ink);border-radius:20px;padding:30px 28px 22px;box-shadow:var(--shadow-lg);display:flex;flex-direction:column;gap:10px}
+.login-logo{height:44px;align-self:flex-start;margin-bottom:6px}
+:root[data-theme="dark"] .login-logo{filter:brightness(0) invert(1) contrast(.9)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .login-logo{filter:brightness(0) invert(1) contrast(.9)}}
+.login-box h1{font-size:22px;font-weight:800;letter-spacing:-.01em}
+.login-box p{margin:0 0 6px;color:var(--muted);font-size:13.5px}
+.login-box label{font-size:12.5px;font-weight:700;color:var(--ink-2)}
+.login-box input{font:inherit;padding:11px 13px;border-radius:10px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);outline:none}
+.login-box input:focus{border-color:var(--blue-2);box-shadow:0 0 0 3px var(--blue-soft)}
+.login-box .btn{justify-content:center;padding:11px;margin-top:4px}
+.login-box .btn:disabled{opacity:.7;cursor:wait}
+.login-err{font-size:13px;font-weight:600;color:var(--bad);background:var(--bad-soft);border-radius:8px;padding:8px 11px}
+.login-err[hidden]{display:none}
+.login-foot{margin-top:8px;text-align:center;font-size:11.5px;color:var(--muted)}
