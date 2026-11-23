@@ -59,6 +59,7 @@
       it.firstPrice = (it.fields.find((f) => /prix/i.test(f.label) && !/^(en attente|à demander|pas de prix|non indiqué)/i.test(f.value)) || it.fields.find((f) => /prix/i.test(f.label)) || {});
     });
   });
+  const BCATS = ((window.BORNES && window.BORNES.categories) || []).map((c) => Object.assign({ variants: [] }, c));
   const allFiles = D.folders.flatMap((f) => f.files.map((x) => Object.assign({ folder: f }, x)));
 
   function mediaFor(it) {
@@ -84,7 +85,14 @@
 
   /* ---------- sidebar ---------- */
   function buildNav() {
-    let h = `<a href="#/" data-r="home">${I.home} Tableau de bord</a>`;
+    let h = `<div class="nav-label" style="padding-top:4px">Catalogue bornes</div>`;
+    h += `<a href="#/" data-r="bornes">${I.grid} Toutes les bornes</a>`;
+    BCATS.forEach((c) => {
+      h += `<a href="#/bornes/${c.id}" data-r="borne-${c.id}"><span class="bnum">${esc(c.num)}</span> ${esc(c.title)} <span class="count">${catItems(c).length}</span></a>`;
+      if (c.variants.length > 1) h += `<div class="sub" data-sub="b-${c.id}">` + c.variants.map((v) => `<a href="#/bornes/${c.id}/${v.id}" data-r="bv-${c.id}-${v.id}">${esc(v.title)}</a>`).join("") + `</div>`;
+    });
+    h += `<div class="nav-label">Suivi</div>`;
+    h += `<a href="#/tableau" data-r="home">${I.home} Tableau de bord</a>`;
     h += `<div class="nav-label">Feuilles Excel</div>`;
     D.sheets.forEach((s) => {
       h += `<a href="#/feuille/${s.id}" data-r="sheet-${s.id}">${I.sheet} ${esc(s.title)} <span class="count">${s.items.length}</span></a>`;
@@ -200,6 +208,108 @@
       </div>`;
   }
 
+  /* ---------- catalogue bornes ---------- */
+  function bvItems(v) { return (v.items || []).map((id) => byId[id]).filter(Boolean); }
+  function catItems(c) { return [...new Set(c.variants.flatMap(bvItems))]; }
+  function bVideos(it, v) {
+    const all = it.media.own.concat(it.media.other).filter((f) => f.kind === "video");
+    const pref = v && v.video && v.video[it.id];
+    return pref ? all.slice().sort((a, b) => (b.name === pref) - (a.name === pref)) : all;
+  }
+  function bPrices(it, v) {
+    const out = [];
+    (v.prices || []).forEach((lab) => {
+      const f = it.fields.find((x) => norm(x.label).includes(norm(lab)) && !out.includes(x));
+      if (f) out.push(f);
+    });
+    return out;
+  }
+  const pending = (s) => /^(en attente|pas encore|pas donn|non indiqu|non disponible|à demander|a demander|à confirmer|devis demand|voir ligne)/i.test(String(s).trim());
+  const priceLabel = (l) => l.replace(/^Prix d'1 pièce \(si on achète 1\)$/i, "1 pièce").replace(/^Prix d'1 pièce si on achète 10$/i, "10 pièces (par pièce)").replace(/^Prix (AVEC|SANS) combiné \(par pièce\)$/i, (m, a) => (a.toUpperCase() === "AVEC" ? "Avec combiné" : "Sans combiné"));
+  function borneCard(it, v) {
+    const vids = bVideos(it, v);
+    const imgs = it.media.own.concat(it.media.other).filter((f) => f.kind === "image");
+    let media;
+    if (vids.length) {
+      const i = currentList.length;
+      currentList.push(Object.assign({}, vids[0], { title: vids[0].title || vids[0].name }));
+      media = `<a class="bmedia" href="javascript:void 0" data-media="${i}"><video preload="metadata" muted src="${vids[0].url}#t=0.8"></video><div class="play"><span>${I.play}</span></div><span class="tag-kind">VIDÉO${vids.length > 1 ? " · " + vids.length : ""}</span></a>`;
+    } else if (it.cover) {
+      const i = currentList.length;
+      currentList.push({ kind: "image", url: it.cover, title: shortProduct(it.product) });
+      media = `<a class="bmedia img" href="javascript:void 0" data-media="${i}"><img loading="lazy" src="${it.cover}" alt=""><span class="tag-kind nov">Pas de vidéo</span></a>`;
+    } else media = `<div class="bmedia img"><div class="ph">${I.box}</div><span class="tag-kind nov">Pas de vidéo</span></div>`;
+    const prices = bPrices(it, v);
+    const thumb = vids.length && it.cover ? `<img class="bthumb" src="${it.cover}" alt="" loading="lazy">` : "";
+    return `<div class="card bcard ${it.ecarte ? "ecarte" : ""}">
+      <div class="bmedia-wrap">${media}${badge(it)}${thumb}</div>
+      <div class="body">
+        <div class="sup">${esc(it.supplier)}</div>
+        <h3>${esc(shortProduct(it.product) || it.category)}</h3>
+        <div class="bprices">${prices.length ? prices.map((p) => `<div class="bp ${pending(p.value) ? "pend" : ""}"><span>${esc(priceLabel(p.label))}</span><b>${linkify(p.value)}</b></div>`).join("") : `<div class="bp pend"><span>Prix</span><b>Non renseigné</b></div>`}</div>
+        <div class="bfoot">
+          ${vids.length ? `<span class="chip">${I.video}${vids.length}</span>` : ""}${imgs.length ? `<span class="chip">${I.image}${imgs.length}</span>` : ""}
+          <a class="btn sm" href="#/article/${it.id}">Détails ${I.arrow}</a>
+        </div>
+      </div></div>`;
+  }
+  function featChips(list, cls = "") { return list && list.length ? `<div class="bfeats ${cls}">${list.map((f) => `<span>${esc(f)}</span>`).join("")}</div>` : ""; }
+  function variantBlock(c, v, showTitle) {
+    const list = bvItems(v);
+    const act = list.filter((it) => !it.ecarte), out = list.filter((it) => it.ecarte);
+    return `${showTitle ? section(esc(v.title), act.length + " modèle" + (act.length > 1 ? "s" : "")) : ""}
+      ${showTitle && (v.desc || v.features) ? `<div class="vdesc">${v.desc ? esc(v.desc) : ""}${v.features ? featChips(v.features.map((f) => "+ " + f), "plus") : ""}</div>` : ""}
+      ${act.length ? `<div class="bcards">${act.map((it) => borneCard(it, v)).join("")}</div>` : `<div class="empty">Aucun modèle actif pour l'instant.</div>`}
+      ${out.length ? `<details class="more"><summary>Modèles écartés (${out.length})</summary><div class="bcards">${out.map((it) => borneCard(it, v)).join("")}</div></details>` : ""}`;
+  }
+  function catHead(c, link) {
+    const its = catItems(c);
+    const nv = its.reduce((n, it) => n + bVideos(it).length, 0);
+    return `<div class="bcat-head">
+      <div class="bcat-num">${esc(c.num)}</div>
+      <div style="min-width:0;flex:1">
+        <h2>${link ? `<a href="#/bornes/${c.id}">${esc(c.title)}</a>` : esc(c.title)}</h2>
+        <p>${esc(c.desc || "")}</p>
+        ${featChips(c.features)}
+      </div>
+      <div class="bcat-stats"><span><b>${its.filter((i) => !i.ecarte).length}</b> modèles</span><span><b>${nv}</b> vidéos</span></div>
+    </div>`;
+  }
+  function vBornes(cid, vid) {
+    currentList = [];
+    if (!cid) {
+      setActive("bornes");
+      crumbs([["Catalogue bornes"]]);
+      view.innerHTML = `
+        <section class="hero">
+          <img class="hero-icon" src="assets/img/icon-akeed.png" alt="">
+          <h1>Catalogue bornes Akeed</h1>
+          <p>Les 3 familles de bornes : modèle, vidéo et prix de chaque fournisseur.</p>
+          <div class="actions">${BCATS.map((c) => `<a class="btn" href="#/bornes/${c.id}"><span class="bnum">${esc(c.num)}</span> ${esc(c.title)}</a>`).join("")}</div>
+        </section>
+        <div class="btiles">${BCATS.map((c) => {
+          const its = catItems(c).filter((i) => !i.ecarte);
+          const pics = its.filter((i) => i.cover).slice(0, 4);
+          return `<a class="card btile" href="#/bornes/${c.id}">
+            <div class="bt-top"><span class="bcat-num">${esc(c.num)}</span><h3>${esc(c.title)}</h3></div>
+            <div class="bt-pics">${pics.length ? pics.map((i) => `<img loading="lazy" src="${i.cover}" alt="">`).join("") : `<div class="ph">${I.box}</div>`}</div>
+            ${c.variants.length > 1 ? `<div class="bt-vars">${c.variants.map((v) => `<span>${esc(v.title)} · ${bvItems(v).filter((i) => !i.ecarte).length}</span>`).join("")}</div>` : ""}
+            <div class="bt-foot"><span>${its.length} modèle${its.length > 1 ? "s" : ""}</span><span class="go">Voir ${I.arrow}</span></div>
+          </a>`;
+        }).join("")}</div>
+        ${BCATS.map((c) => `<div class="bcat">${catHead(c, true)}${c.variants.map((v) => variantBlock(c, v, true)).join("")}</div>`).join("")}`;
+      return;
+    }
+    const c = BCATS.find((x) => x.id === cid);
+    if (!c) return vNotFound();
+    const v = vid && c.variants.find((x) => x.id === vid);
+    setActive(v ? `bv-${c.id}-${v.id}` : "borne-" + c.id, "b-" + c.id);
+    crumbs([["Catalogue bornes", "#/"], [c.title, v ? "#/bornes/" + c.id : null]].concat(v ? [[v.title]] : []));
+    const tabs = c.variants.length > 1 ? `<div class="toolbar"><a class="filter ${!v ? "on" : ""}" href="#/bornes/${c.id}" style="text-decoration:none">Tous les modèles</a>${c.variants.map((x) => `<a class="filter ${v === x ? "on" : ""}" href="#/bornes/${c.id}/${x.id}" style="text-decoration:none">${esc(x.title)} <span class="n">${bvItems(x).filter((i) => !i.ecarte).length}</span></a>`).join("")}</div>` : "";
+    view.innerHTML = `<div class="bcat">${catHead(c)}</div>${tabs}
+      ${(v ? [v] : c.variants).map((x) => variantBlock(c, x, c.variants.length > 1)).join("")}`;
+  }
+
   const state = { status: "all", mode: "cards", q: "" };
   try { state.mode = localStorage.getItem("akeed-mode") || "cards"; } catch (e) {}
 
@@ -207,7 +317,7 @@
     const s = sheetsById[sid];
     if (!s) return vNotFound();
     setActive(gid ? "grp-" + gid : "sheet-" + sid, sid);
-    crumbs([["Tableau de bord", "#/"], [s.title, gid ? "#/feuille/" + sid : null]].concat(gid ? [[groupTitle(s.groupsById[gid]?.title || "")]] : []));
+    crumbs([["Tableau de bord", "#/tableau"], [s.title, gid ? "#/feuille/" + sid : null]].concat(gid ? [[groupTitle(s.groupsById[gid]?.title || "")]] : []));
     const base = s.items.filter((it) => !gid || it.group === gid);
     const counts = { all: base.length };
     base.forEach((it) => (counts[st(it)] = (counts[st(it)] || 0) + 1));
@@ -272,7 +382,7 @@
     if (!it) return vNotFound();
     const s = sheetsById[it.sheet];
     setActive("sheet-" + s.id, s.id);
-    crumbs([["Tableau de bord", "#/"], [s.title, "#/feuille/" + s.id], [shortProduct(it.product) || it.supplier]]);
+    crumbs([["Tableau de bord", "#/tableau"], [s.title, "#/feuille/" + s.id], [shortProduct(it.product) || it.supplier]]);
     currentList = [];
     const f = it.folder && folders[it.folder];
     const prices = it.fields.filter((x) => /prix/i.test(x.label));
@@ -315,7 +425,7 @@
 
   function vFolders() {
     setActive("folders");
-    crumbs([["Tableau de bord", "#/"], ["Fournisseurs"]]);
+    crumbs([["Tableau de bord", "#/tableau"], ["Fournisseurs"]]);
     view.innerHTML = `<div class="page-head"><div><h1>Dossiers fournisseurs</h1><p>${D.folders.length} dossiers — photos, vidéos, fiches PDF et messages reçus / envoyés.</p></div></div>
       <div class="sup-grid">${D.folders.map(folderCard).join("")}</div>`;
   }
@@ -336,7 +446,7 @@
     const f = folders[id];
     if (!f) return vNotFound();
     setActive("folders");
-    crumbs([["Tableau de bord", "#/"], ["Fournisseurs", "#/fournisseurs"], [f.name]]);
+    crumbs([["Tableau de bord", "#/tableau"], ["Fournisseurs", "#/fournisseurs"], [f.name]]);
     currentList = [];
     const kinds = [["video", "Vidéos"], ["image", "Photos"], ["pdf", "Documents PDF"], ["texte", "Messages"], ["archive", "Archives"], ["fichier", "Autres"]];
     const it0 = f.items[0];
@@ -350,7 +460,7 @@
 
   function vMedias(kind) {
     setActive("medias");
-    crumbs([["Tableau de bord", "#/"], ["Médiathèque"]]);
+    crumbs([["Tableau de bord", "#/tableau"], ["Médiathèque"]]);
     currentList = [];
     const kinds = [["all", "Tout"], ["video", "Vidéos"], ["image", "Photos"], ["pdf", "PDF"], ["texte", "Messages"], ["archive", "Archives"]];
     kind = kind || "all";
@@ -367,7 +477,7 @@
 
   function vSearch(q) {
     setActive("");
-    crumbs([["Tableau de bord", "#/"], [`Recherche « ${q} »`]]);
+    crumbs([["Tableau de bord", "#/tableau"], [`Recherche « ${q} »`]]);
     currentList = [];
     const nq = norm(q);
     const res = items.filter((it) => norm([it.supplier, it.product, it.category, it.specs, it.contact, it.remarks, it.next, it.fields.map((f) => f.value).join(" ")].join(" ")).includes(nq));
@@ -392,7 +502,9 @@
     else if (p[0] === "fournisseur") vFolder(p[1]);
     else if (p[0] === "medias") vMedias(p[1]);
     else if (p[0] === "recherche") vSearch(p.slice(1).join("/"));
-    else vHome();
+    else if (p[0] === "tableau") vHome();
+    else if (p[0] === "bornes") vBornes(p[1], p[2]);
+    else vBornes();
     if (p[0] !== "recherche") { $("#search").value = ""; }
     window.scrollTo(0, 0);
   }
