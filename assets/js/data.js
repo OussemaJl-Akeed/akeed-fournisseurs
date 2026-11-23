@@ -1,5 +1,5 @@
 window.SITE_DATA = {
- "generated": "23/11/2026 10:12",
+ "generated": "23/11/2026 10:53",
  "excel": "data/Fournisseurs_Bornes_Multifonction.xlsx",
  "sheets": [
   {
@@ -850,12 +850,12 @@ window.SITE_DATA = {
      "row": 3,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "EMV PCI 6 Inch Android 11.0 NFC Bluetooth All-In-One Handheld Payment POS Terminal Z500",
      "specs": "Safedroid OS (Android 11, GMS) ; CPU quad-core A53 2 GHz ; 2 Go RAM / 32 Go ; écran 6\" IPS 1440x720 tactile ; lecteurs carte magnétique + puce (ISO7816) + sans contact (14443A/B) ; imprimante thermique 58 mm ; 4G / WiFi 2.4+5 GHz / BT 5.0 ; GPS ; caméra 5 MP (scan QR) ; batterie 7.6V 2600 mAh ; 410 g. ⚠ Titre annonce « EMV PCI » mais fiche ne cite que CE/RoHS/FCC → certificats EMV L1/L2 + PCI PTS à confirmer",
-     "remarks": "Lien envoyé par Oussema (20/11). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "Lien envoyé par Oussema (20/11). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/EMV-PCI-6-Inch-Android-11-0-NFC-Bluetooth-All-In-One-Handheld-Payment-POS-Terminal-Z500-pd730011098.html",
      "docs": "Photo Z500 (site, 20/11)",
@@ -898,12 +898,12 @@ window.SITE_DATA = {
      "row": 4,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "POS Android BANCAIRE (EMV L1 & L2) – alternative à clavier – 1000 pcs",
      "product": "Android 10 Handheld POS Terminal with 58mm Thermal Printer Keyboards Z60A",
      "specs": "Android 10 ; CPU quad-core A53 1.4 GHz ; 1 Go RAM / 8 Go (2/16 Go en option) ; écran 4\" 480x800 tactile + clavier physique (10 chiffres + 5 fonctions) ; carte magnétique pistes 1/2/3, puce EMV L1&L2, sans contact (Paypass/Paywave, Mifare) ; imprimante 58 mm 100 mm/s ; 4G / WiFi / BT 4.2 ; batterie 7.2V 2600 mAh. Certifs annoncées : EMV Contact L1&L2, EMV Contactless L1, Paypass, Paywave, Amex, PCI PTS, CE, RoHS",
-     "remarks": "Seul modèle HCCTG avec certifs EMV L1&L2 + PCI PTS clairement listées. Android 10 (ancien). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "Seul modèle HCCTG avec certifs EMV L1&L2 + PCI PTS clairement listées. Android 10 (ancien). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/Android-10-Handheld-POS-Terminal-with-58mm-Thermal-Printer-Keyboards-Z60A-pd595887668.html",
      "docs": "Photo Z60A (site, 20/11)",
@@ -946,24 +946,21 @@ window.SITE_DATA = {
      "row": 5,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "POS Android NON BANCAIRE – 500 pcs",
-     "product": "Modèle à proposer par le fournisseur (catalogue Handheld POS : Z300P, Z100, R330 Plus, Z93…)",
-     "specs": "Besoin : POS Android sans certification bancaire (imprimante 58 mm, scan QR, 4G/WiFi). Catalogue : https://www.szhcct.com/handheld-pos_c11",
-     "remarks": "Pas de modèle précis choisi : demander leur recommandation. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "product": "Proposition (en attendant leur recommandation) : HCCTG Z300P – 6 Inch 4G Android 11.0 NFC Handheld POS with 58mm Printer",
+     "specs": "Z300P (catalogue HCCTG) : Android 11, écran 6\", NFC, imprimante 58 mm, 4G/WiFi – modèle à confirmer par HCCTG",
+     "remarks": "Pas de modèle précis choisi : demander leur recommandation. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/handheld-pos_c11",
-     "docs": "",
-     "photo": "",
+     "docs": "Photo Z300P (site, 23/11)",
+     "photo": "assets/excel/f2_r5.jpg",
      "status": "attente",
      "ecarte": false,
      "folder": "hcctg-huachen-lianchuang-86-134-2866-5926-info-szhcct-com",
      "tokens": [
-      "z300p",
-      "z100",
-      "r330",
-      "z93"
+      "z300p"
      ],
      "fields": [
       {
@@ -997,12 +994,12 @@ window.SITE_DATA = {
      "row": 6,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Terminal de paiement non surveillé (pour bornes / distributeurs) – quantité à définir",
      "product": "MDB Android 14.0 Unattended Self-Service Payment Terminal For Vending Machines CM30",
      "specs": "Android 14 ; quad-core A53 2 GHz ; 2 Go / 32 Go ; écran 5\" 1280x720 tactile (gants, doigts mouillés) ; puce ISO7816 + sans contact 14443A/B ; ports 2x RS232, LAN, USB-A, USB-C, MDB esclave ; alim 12–48 V DC ; 4G / WiFi 2.4+5 GHz / BT 5.0 ; IP65 / IK09 ; -20 à 60 °C. Certifs : EMV, PCI, Paypass, Paywave (Amex option), CE, RoHS, FCC",
-     "remarks": "NOUVEAU – lien envoyé par Oussema mais absent de la liste des quantités → confirmer la quantité avec Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – lien envoyé par Oussema mais absent de la liste des quantités → confirmer la quantité avec Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/MDB-Android-14-0-Unattended-Self-Service-Payment-Terminal-For-Vending-Machines-CM30-pd733165588.html",
      "docs": "Photo CM30 (site, 20/11)",
@@ -1045,12 +1042,12 @@ window.SITE_DATA = {
      "row": 7,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Imprimante KIOSK (intégrée) – 50 pcs",
      "product": "3 Inch 80mm USB+RS232 Thermal/Label Embedded Kiosk Receipt Printer HCC-QR34",
      "specs": "Thermique 203 dpi ; 250 mm/s ; largeur papier 23–82 mm (reçu, étiquette, marque noire) ; rouleau max 120 mm ; massicot total/partiel ; RS232 + USB + LAN ; ESC/POS, CPCL, TSPL ; driver Windows",
-     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/3-Inch-80mm-USB-RS232-Thermal-Label-Embedded-Kiosk-Receipt-Printer-HCC-QR34-pd532800548.html",
      "docs": "Photo QR34 + capture sélection (20/11)",
@@ -1094,12 +1091,12 @@ window.SITE_DATA = {
      "row": 8,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Imprimante KIOSK (intégrée) – 50 pcs",
      "product": "80mm Kiosk Thermal Ticket Printer Embedded Printing Device with Auto Cutter HCC-K37E",
      "specs": "Thermique 203 dpi ; 100 mm/s ; largeur impression 72 mm (papier 80 mm) ; rouleau max 120 mm ; massicot total/partiel (>1 M coupes) ; RS232 + USB ; ESC/POS ; drivers Windows/Linux/Mac ; SDK Windows/Linux/Android/iOS ; alim 8–24 V DC ; conçu 24/7",
-     "remarks": "NOUVEAU – entouré sur capture Oussema. Plus lent que QR34 mais SDK Android inclus. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – entouré sur capture Oussema. Plus lent que QR34 mais SDK Android inclus. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/80mm-Kiosk-Thermal-Ticket-Printer-Embedded-Printing-Device-with-Auto-Cutter-HCC-K37E-pd588408048.html",
      "docs": "Photo K37E + capture sélection (20/11)",
@@ -1142,12 +1139,12 @@ window.SITE_DATA = {
      "row": 9,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Imprimante KIOSK format A4/A5 – 50 pcs (option)",
      "product": "Portable Full Range A4/A5 Invoice Document Thermal Printer HX216-II",
      "specs": "Thermique 300 dpi ; largeur 104–216 mm (A4/A5) ; 150 mm/s ; rouleau max 150 mm ; massicot auto ; RS232 + USB ; ESC/POS ; Windows/Linux/Android ; 24 V 6 A (150 W)",
-     "remarks": "NOUVEAU – entouré sur capture Oussema (imprime factures/documents A4). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – entouré sur capture Oussema (imprime factures/documents A4). 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/Portable-Full-Range-A4-A5-Invoice-Document-Thermal-Printer-HX216-II-pd552087548.html",
      "docs": "Photo HX216-II + capture sélection (20/11)",
@@ -1192,12 +1189,12 @@ window.SITE_DATA = {
      "row": 10,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Imprimante BLUETOOTH (bureau) – 400 pcs",
      "product": "3 Inch Desktop Wireless Thermal Printer with Bluetooth LAN WIFI USB HCC-POS896",
      "specs": "Thermique 203 dpi ; 260 mm/s ; papier 80/58 mm ; massicot partiel ; interfaces au choix : USB+LAN / USB+LAN+Bluetooth / USB+LAN+RS232 / USB+LAN+WiFi ; ESC/POS ; Windows/Android/Linux/Mac/iOS ; 24 V 1.5 A ; 800 g",
-     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/3-Inch-Desktop-Wireless-Thermal-Printer-with-Bluetooth-LAN-WIFI-USB-HCC-POS896-pd517721838.html",
      "docs": "Photo POS896 + capture sélection (20/11)",
@@ -1240,12 +1237,12 @@ window.SITE_DATA = {
      "row": 11,
      "group": "f2-g1",
      "supplier": "Shenzhen Huachen Lianchuang Technology Co., Ltd. (HCCTG)",
-     "contact": "WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
+     "contact": "Commerciale : Celine – WhatsApp +86 137 2347 6377 ; WhatsApp / Tél : +86 134 2866 5926 (message envoyé 20/11) ; Email : info@szhcct.com (mail envoyé 20/11) ; Tél fixe Shenzhen : +86 755 8665 5162 ; Site : www.szhcct.com",
      "category": "Imprimante BLUETOOTH (bureau) – 400 pcs",
      "product": "3 Inch USB/ LAN/ Bluetooth/ WIFI Thermal Receipt Cloud Printer with DHCP Server HCC-POS830",
      "specs": "Thermique 80 mm (72 mm utiles) ; 250 mm/s ; USB + LAN + Bluetooth + WiFi (cloud, DHCP, WPS) ; massicot auto ; tiroir-caisse ; annonce vocale + LED/buzzer à l'arrivée commande ; drivers Windows/Linux/Mac ; SDK Java/C++/C#/JS ; 1.6 kg",
-     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »).",
-     "next": "Attendre proforma HCCTG",
+     "remarks": "NOUVEAU – entouré sur capture Oussema. 20/11 09:58 : demande de prix envoyée par WhatsApp (+86 134 2866 5926) : 1000 POS bancaires, 500 POS non bancaires, 50 imprimantes kiosk, 400 imprimantes Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:01 : même demande envoyée par email (Oussema.jelloul@akeed.tn → info@szhcct.com, avec signature). 20/11 10:50 : WhatsApp toujours 1 seul ✓ (message pas encore délivré sur leur téléphone), pas de réponse email. 11:45 : toujours rien (WhatsApp 1 seul ✓ = pas délivré ; pas de réponse à info@szhcct.com). 23/11 : WhatsApp délivré (✓✓) mais toujours pas de réponse ; pas de réponse email. 23/11 09:53-09:54 : relance proforma envoyée par email (info@szhcct.com) + WhatsApp (4 articles + version intégrée même kernel + SoftPOS obligatoire + « on compare plusieurs fournisseurs, on veut travailler avec un seul »). 23/11 10:40 : Celine (Shenzhen HCC, WhatsApp +86 137 2347 6377) répond : demande nom, email, société. Pas répondu (attente Oussema). 10:4x : réponse envoyée à Celine (accord Oussema) : Oussema, Oussema.jelloul@akeed.tn, société Paypos + demande de proforma.",
+     "next": "Attendre proforma de Celine (HCC)",
      "linkText": "Voir le produit",
      "link": "https://www.szhcct.com/3-Inch-USB-LAN-Bluetooth-WIFI-Thermal-Receipt-Cloud-Printer-with-DHCP-Server-HCC-POS830-pd586502838.html",
      "docs": "Photo POS830 + capture sélection (20/11)",
@@ -1392,8 +1389,8 @@ window.SITE_DATA = {
      "next": "Attendre proforma Urovo",
      "linkText": "Voir le produit",
      "link": "https://en.urovo.com/",
-     "docs": "",
-     "photo": "",
+     "docs": "Photo K329 (site, 23/11) – ⚠ K329 = imprimante étiquettes portable, pas 80 mm reçu",
+     "photo": "assets/excel/f2_r15.jpg",
      "status": "attente",
      "ecarte": false,
      "folder": "urovo-urovo-urovo-com",
@@ -1487,7 +1484,7 @@ window.SITE_DATA = {
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "Telpo P9 (handheld EFTPOS)",
      "specs": "os : Telpo OS (Android version not stated in spec table) ; cpu : Octa-Core ; ram_rom : 2GB+16GB; optional 3GB+32GB or 4GB+64GB ; screen : 6.5in, 720*1600; optional 2in 320*240 customer display ; card_readers : Magstripe Track 1/2/3; IC ISO7816; contactless ISO14443 A/B, Mifare ; printer : 58mm thermal, roll dia 40mm, up to 80mm/s ; camera_scan : Rear 5MP AF (13MP optional), front 2MP optional; barcode scanner optional; fingerprint optional ; connectivity : LTE/WCDMA/GPRS, Wi-Fi 2.4/5GHz, Bluetooth 5.0, GPS; 2 SIM (or SIM+eSIM), 1-2 SAM ; battery : 7.6V/3500mAh Li-ion removable (5000mAh optional) ; dimensions_weight : 194x81x60 mm, 420g || Certifications : PCI PTS 6.X, EMV Contact L1&L2, EMV Contactless L1, VISA, Mastercard, Rupay, Amex, JCB, UnionPay, Pure, Discover, NSICCS, TQM, CE, FCC, RoHS, WEEE, PPWR",
-     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos.",
+     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos. 10:17 : Telpo demande si on a parlé à Cici ; 10:22 : Oussema a envoyé une capture du message à Cici. 10:31 : Telpo : « Let me check with her » (Cici).",
      "next": "Attendre proforma Telpo / Cici",
      "linkText": "Voir le produit",
      "link": "https://www.telpo.com.cn/product/eft-pos/p9-payment-terminal",
@@ -1535,7 +1532,7 @@ window.SITE_DATA = {
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "Telpo P8 (Android POS with printer) - lower-cost alternative",
      "specs": "os : Telpo OS (Android version not stated in spec table) ; cpu : Quad-Core ; ram_rom : 1GB+8GB; optional 2GB+16GB; TF optional ; screen : 5in, 480*854 (720*1280 optional) ; card_readers : Magstripe Track 1/2/3; IC ISO7816; contactless ISO14443 A/B, Mifare ; printer : 58mm thermal, roll dia 40mm ; camera_scan : Rear 2MP fixed focus (barcode software decoding); 0.3MP or 5MP AF optional ; connectivity : 4G/3G/2G, Wi-Fi, Bluetooth, GPS; 2 SIM + 1 SAM ; battery : 7.2V/2600mAh Li-ion (3500mAh optional) ; dimensions_weight : 180x78x75.5 mm || Certifications : PCI (version not stated), EMV L1&L2, EMV Contactless L1, Paywave, Paypass, Rupay, Amex, TQM, CE, BIS",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos.",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos. 10:17 : Telpo demande si on a parlé à Cici ; 10:22 : Oussema a envoyé une capture du message à Cici. 10:31 : Telpo : « Let me check with her » (Cici).",
      "next": "Attendre proforma Telpo / Cici",
      "linkText": "Voir le produit",
      "link": "https://www.telpo.com.cn/product/eft-pos/android-pos-printer",
@@ -1583,7 +1580,7 @@ window.SITE_DATA = {
      "category": "POS Android NON BANCAIRE – 500 pcs",
      "product": "Telpo M1 (mobile POS)",
      "specs": "os : Telpo OS (Android 14) ; cpu : Octa-Core 2.0GHz ; ram_rom : 4GB+64GB, TF up to 256GB ; screen : 6.5in, 720*1600 ; card_readers : Contactless ISO14443 A/B, Mifare only (no chip/magstripe) ; printer : 58mm thermal, roll dia 40mm ; camera_scan : 2D barcode reader (hard decoding); 5MP AF camera ; connectivity : LTE/WCDMA/GPRS, Wi-Fi, Bluetooth, GPS; 2 nano SIM, 1 SAM ; battery : 7.6V/3500mAh Li-ion removable ; dimensions_weight : 235x84x46 mm, 413g || Certifications : CE, FCC, RoHS, GMS (no payment certifications stated)",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos.",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:31 : demande de prix envoyée par WhatsApp (+86 186 0308 0594) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:32 : Telpo demande nom, société et email. 10:38 : réponse « Khatib, société Paypos » (accord Oussema), email non donné, demandé d'envoyer l'offre sur WhatsApp. 10:42 : Telpo : « Cici will contact you ASAP » ; 10:45 : carte contact Cici (commerciale Telpo) : WhatsApp +86 134 3540 8138. 23/11 : rien de nouveau ; Cici (+86 134 3540 8138) n'a jamais écrit. 23/11 09:55 : relance proforma WhatsApp Telpo ; 09:57 : même demande envoyée à Cici (+86 134 3540 8138) au nom de Khatib / Paypos. 10:17 : Telpo demande si on a parlé à Cici ; 10:22 : Oussema a envoyé une capture du message à Cici. 10:31 : Telpo : « Let me check with her » (Cici).",
      "next": "Attendre proforma Telpo / Cici",
      "linkText": "Voir le produit",
      "link": "https://www.telpo.com.cn/product/smart-pos/m1-mobile-pos",
@@ -1631,11 +1628,11 @@ window.SITE_DATA = {
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "Ciontek CS50",
      "specs": "os : Android 11.0 (GMS supported) ; cpu : Quad-Core ARM Cortex-A53 2.0GHz ; ram_rom : 2GB+32GB ; screen : 6in TFT IPS, 1440x720 ; card_readers : NFC contactless, chip & PIN, magstripe ; printer : 58mm high-speed thermal, roll dia 40mm ; camera_scan : Front 2MP, rear 5MP; optional Symbol 4710 2D scanner; optional fingerprint ; connectivity : 2G/3G/4G, Wi-Fi a/b/g/n 2.4/5GHz, Bluetooth, GPS/BeiDou/Glonass/Galileo; 1 SIM, 2 PSAM, microSD ; battery : Li-ion 7.4V/2600mAh (3300mAh optional) || Certifications : PCI PTS 6.x, EMV L1 & L2, EMV Contactless L1, PayPass, PayWave, Amex, TQM, CUP QuickPass, D-PAS, J/Speedy, Pure, Common.SECC; CE, RoHS, FCC",
-     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). CS50 : PCI PTS POI v6 n° 4-40345, valide jusqu'au 30/04/2030 ✅ + EMV Contact L1, L2, Contactless L1. 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema).",
-     "next": "Répondre à Jasmine (comparaison de prix / échantillons) – décision Oussema",
+     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). CS50 : PCI PTS POI v6 n° 4-40345, valide jusqu'au 30/04/2030 ✅ + EMV Contact L1, L2, Contactless L1. 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema). 10:1x : Jasmine : CM30 version EMV = 165 USD/pièce pour 1000 pcs, transport non inclus. Réponse envoyée : proforma d'abord pour voir les prix, échantillons plus tard. 23/11 10:22 : PROFORMA reçue (« PI paypos.pdf », dossier Ciontek) – vendeur SHENBO Communication Technologies (Hong Kong) Ltd : 1000 CM30 × 165 $ = 165 000 $ ; 1000 CS50 × 115 $ = 115 000 $ ; 500 CS30 × 102 $ = 51 000 $ ; TOTAL 331 000 USD, EXW Shenzhen, transport TBD, délai TBD, paiement T/T 100 % à l'avance (information seulement, rien payé). 10:29 : questions envoyées à Jasmine (infos manquantes) : délai, coût transport vers Tunis (mer/air), garantie en mois, certificats PCI/EMV du CM30, validité de l'offre, SDK avant commande, partenaire SoftPOS. 10:42 : Ruby demande si on a déjà importé de Chine et si on a des difficultés pour payer des fournisseurs étrangers depuis la Tunisie. Pas répondu (attente Oussema). 10:46 : réponses de Jasmine : délai 6–8 semaines après paiement (version standard) ; transport vers Tunis : « will check » ; garantie = seulement 2 % de pièces de rechange, PAS d'autre service de garantie (pièces de rechange à acheter + instructions/vidéos de réparation) ; certificats CM30 ✓ ; offre valable 6 mois hors transport (sous réserve prix mémoire/carte mère) ; SDK seulement avec commande d'échantillon ; SoftPOS : partenaires Viva et Stripe. 10:47 : réponse à Ruby envoyée (déjà importé de Chine, pas de problème de paiement, on compare les offres).",
+     "next": "Attendre coût transport vers Tunis (Jasmine « will check »)",
      "linkText": "Voir le produit",
      "link": "https://www.ciontek.com/products/smart-pos/cs50.html",
-     "docs": "Photo + fiche CS50 + certificats PCI PTS v6 & EMV L1/L2/CL L1 (WeTransfer 20/11)",
+     "docs": "Photo + fiche CS50 + certificats PCI PTS v6 & EMV L1/L2/CL L1 (WeTransfer 20/11) + proforma PI paypos (23/11)",
      "photo": "assets/excel/f3_r7.png",
      "status": "partiel",
      "ecarte": false,
@@ -1646,23 +1643,23 @@ window.SITE_DATA = {
      "fields": [
       {
        "label": "Prix unitaire (annonce / devis)",
-       "value": "USD 115 / pièce (CS50 2+32 Go standard) ; échantillon : USD 125"
+       "value": "USD 115 / pièce (proforma 23/11, EXW Shenzhen)"
       },
       {
        "label": "Prix pour la quantité demandée",
-       "value": "USD 115 × 1000 = USD 115 000 (prix indiqué pour la quantité demandée)"
+       "value": "1000 × 115 = USD 115 000 (proforma, hors transport)"
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "NON – pas de logiciel SoftPOS (Jasmine 20/11)"
+       "value": "Pas de logiciel propre ; partenaires SoftPOS : Viva et Stripe"
       },
       {
        "label": "Garantie",
-       "value": "2 % de pièces de rechange (pas de durée en mois)"
+       "value": "2 % de pièces de rechange seulement – pas d'autre garantie"
       },
       {
        "label": "Garantie / SAV en Tunisie",
-       "value": "Non indiqué"
+       "value": "Pas de SAV en Tunisie : réparation par nos soins (pièces à acheter + instructions/vidéos)"
       },
       {
        "label": "Version intégrée borne (même kernel) + fournisseur SoftPOS",
@@ -1679,8 +1676,8 @@ window.SITE_DATA = {
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "Ciontek CS10 (budget alternative)",
      "specs": "os : Android 11.0 ; cpu : Quad-Core 1.3GHz ; ram_rom : 1GB+8GB ; screen : 5.5in TFT IPS, 1280x720 (CS10 variant) ; card_readers : Chip & PIN, NFC contactless, magstripe ; printer : 58mm thermal, roll dia 40mm ; camera_scan : 5MP AF with LED flash ; connectivity : 2G/3G/4G, Wi-Fi dual band, GPS; 2 SIM, 2 PSAM (Bluetooth not listed for the CS10 variant) ; battery : Li-ion 7.4V/2600mAh (3300mAh optional) || Certifications : PCI PTS 6.X, EMV L1 & L2, EMV CL L1, PayPass, PayWave, Amex, CUP qUICS, TQM; CE, RoHS, FCC",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). ⚠ CS10 : PCI PTS v5 n° 4-90034 EXPIRÉ le 30/04/2026 (non valable pour nouveaux déploiements) + EMV Contact L1, L2, Contactless L1. 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema).",
-     "next": "Répondre à Jasmine (comparaison de prix / échantillons) – décision Oussema",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). ⚠ CS10 : PCI PTS v5 n° 4-90034 EXPIRÉ le 30/04/2026 (non valable pour nouveaux déploiements) + EMV Contact L1, L2, Contactless L1. 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema). 10:1x : Jasmine : CM30 version EMV = 165 USD/pièce pour 1000 pcs, transport non inclus. Réponse envoyée : proforma d'abord pour voir les prix, échantillons plus tard. 23/11 10:22 : PROFORMA reçue (« PI paypos.pdf », dossier Ciontek) – vendeur SHENBO Communication Technologies (Hong Kong) Ltd : 1000 CM30 × 165 $ = 165 000 $ ; 1000 CS50 × 115 $ = 115 000 $ ; 500 CS30 × 102 $ = 51 000 $ ; TOTAL 331 000 USD, EXW Shenzhen, transport TBD, délai TBD, paiement T/T 100 % à l'avance (information seulement, rien payé). 10:29 : questions envoyées à Jasmine (infos manquantes) : délai, coût transport vers Tunis (mer/air), garantie en mois, certificats PCI/EMV du CM30, validité de l'offre, SDK avant commande, partenaire SoftPOS. 10:42 : Ruby demande si on a déjà importé de Chine et si on a des difficultés pour payer des fournisseurs étrangers depuis la Tunisie. Pas répondu (attente Oussema). 10:46 : réponses de Jasmine : délai 6–8 semaines après paiement (version standard) ; transport vers Tunis : « will check » ; garantie = seulement 2 % de pièces de rechange, PAS d'autre service de garantie (pièces de rechange à acheter + instructions/vidéos de réparation) ; certificats CM30 ✓ ; offre valable 6 mois hors transport (sous réserve prix mémoire/carte mère) ; SDK seulement avec commande d'échantillon ; SoftPOS : partenaires Viva et Stripe. 10:47 : réponse à Ruby envoyée (déjà importé de Chine, pas de problème de paiement, on compare les offres).",
+     "next": "Attendre coût transport vers Tunis (Jasmine « will check »)",
      "linkText": "Voir le produit",
      "link": "https://www.ciontek.com/products/smart-pos/cs10.html",
      "docs": "Photo + fiche CS10 + certificats PCI PTS v5 (expiré) & EMV (WeTransfer 20/11)",
@@ -1702,15 +1699,15 @@ window.SITE_DATA = {
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "NON – pas de logiciel SoftPOS (Jasmine 20/11)"
+       "value": "Pas de logiciel propre ; partenaires SoftPOS : Viva et Stripe"
       },
       {
        "label": "Garantie",
-       "value": "2 % de pièces de rechange (pas de durée en mois)"
+       "value": "2 % de pièces de rechange seulement – pas d'autre garantie"
       },
       {
        "label": "Garantie / SAV en Tunisie",
-       "value": "Non indiqué"
+       "value": "Pas de SAV en Tunisie : réparation par nos soins (pièces à acheter + instructions/vidéos)"
       },
       {
        "label": "Version intégrée borne (même kernel) + fournisseur SoftPOS",
@@ -1727,11 +1724,11 @@ window.SITE_DATA = {
      "category": "POS Android NON BANCAIRE – 500 pcs",
      "product": "Ciontek CS30 (Android SoftPOS terminal)",
      "specs": "os : Android 14.0 (GMS supported) ; cpu : Quad-Core ARM Cortex-A53 2.0GHz ; ram_rom : 2GB+16GB ; screen : 6in TFT IPS, 1440x720 ; card_readers : NFC contactless only ; printer : 58mm high-speed thermal (Seiko head), roll dia 40mm ; camera_scan : 5MP rear camera; optional Symbol 4710 2D scanner; optional fingerprint ; connectivity : 2G/3G/4G, Wi-Fi a/b/g/n 2.4/5GHz, Bluetooth, GPS; 1 SIM, 1 PSAM, microSD ; battery : Li-ion 7.4V/2600mAh (3300mAh optional) || Certifications : CE, RoHS, FCC (no payment certifications stated)",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema).",
-     "next": "Répondre à Jasmine (comparaison de prix / échantillons) – décision Oussema",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:36 : demande de prix envoyée par WhatsApp (+86 159 7374 8749) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 10:42 : réponse de Jasmine (Ciontek) : demande notre site web et si on a une capacité d'intégration logicielle. Pas encore répondu (à valider avec Oussema). 10:51 : réponse envoyée (accord Oussema) : société Paypos, propre logiciel + développeurs, besoin matériel + SDK/drivers ; site web non donné ; prix + fiches redemandés. 10:55-10:57 : Jasmine a envoyé les prix + 3 fiches PDF (CS10, CS50, CS30C). Garantie : 2 % de pièces de rechange offertes ; délai 6–8 semaines après paiement ; documents SDK seulement après achat d'un échantillon (demo). Pas de réponse pour imprimantes kiosk/Bluetooth ni SoftPOS. 11:03 : questions envoyées (info seulement, pas de commande) : durée garantie, certificats EMV/PCI, prix échantillon livré Tunisie, imprimantes kiosk/Bluetooth, SoftPOS. 11:05 : Jasmine : garantie = seulement 2 % de pièces de rechange (pas de durée en mois) ; certificats EMV/PCI « Sure » (pas encore reçus) ; prix échantillon = prix unitaire + 10 USD ; PAS d'imprimantes kiosk ni Bluetooth ; SoftPOS : demande si on veut dire PSP. 11:05 : précisé SoftPOS = appli Tap-to-Pay sur téléphone (MPoC/CPoC), pas PSP + rappel certificats. 11:07 : Jasmine : pas de logiciel SoftPOS ; certificats EMV/PCI envoyés par lien WeTransfer (https://we.tl/t-LVUpLUZAAqMYDYed) – pas encore téléchargés (acceptation des conditions WeTransfer à valider avec Oussema). 11:15 : 10 certificats téléchargés (dossier « Ciontek - certificats EMV PCI (20-11) »). 23/11 : rien de nouveau depuis 20/11. 23/11 09:55 : demande de proforma (1000 CS50 + 500 CS30) + version intégrée borne même kernel, par WhatsApp. 23/11 03:17 : Jasmine a créé le groupe WhatsApp « Paypos-Ciontek » avec Ruby (Regional Manager, +86 186 7553 7951) : « we may discuss here ». 09:57 : Jasmine a partagé notre demande de proforma dans le groupe (capture). Pas de réponse encore. Groupe ni quitté ni « Rester » cliqué. 10:00 (groupe) : Jasmine envoie la fiche CM30 + « CM30 is the unattended model with same kernel as CS50 ». CM30 : Safedroid Android 14, 2+32 Go, écran 5\", ICC + NFC, PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass/Paywave, 2×RS232, LAN, USB, MDB, 12–48 V DC, IP54/IK09. 10:01 : demande proforma CS50/CS30 + prix version intégrée envoyée dans le groupe. Prix CM30 pas encore donné. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema). 10:1x : Jasmine : CM30 version EMV = 165 USD/pièce pour 1000 pcs, transport non inclus. Réponse envoyée : proforma d'abord pour voir les prix, échantillons plus tard. 23/11 10:22 : PROFORMA reçue (« PI paypos.pdf », dossier Ciontek) – vendeur SHENBO Communication Technologies (Hong Kong) Ltd : 1000 CM30 × 165 $ = 165 000 $ ; 1000 CS50 × 115 $ = 115 000 $ ; 500 CS30 × 102 $ = 51 000 $ ; TOTAL 331 000 USD, EXW Shenzhen, transport TBD, délai TBD, paiement T/T 100 % à l'avance (information seulement, rien payé). 10:29 : questions envoyées à Jasmine (infos manquantes) : délai, coût transport vers Tunis (mer/air), garantie en mois, certificats PCI/EMV du CM30, validité de l'offre, SDK avant commande, partenaire SoftPOS. 10:42 : Ruby demande si on a déjà importé de Chine et si on a des difficultés pour payer des fournisseurs étrangers depuis la Tunisie. Pas répondu (attente Oussema). 10:46 : réponses de Jasmine : délai 6–8 semaines après paiement (version standard) ; transport vers Tunis : « will check » ; garantie = seulement 2 % de pièces de rechange, PAS d'autre service de garantie (pièces de rechange à acheter + instructions/vidéos de réparation) ; certificats CM30 ✓ ; offre valable 6 mois hors transport (sous réserve prix mémoire/carte mère) ; SDK seulement avec commande d'échantillon ; SoftPOS : partenaires Viva et Stripe. 10:47 : réponse à Ruby envoyée (déjà importé de Chine, pas de problème de paiement, on compare les offres).",
+     "next": "Attendre coût transport vers Tunis (Jasmine « will check »)",
      "linkText": "Voir le produit",
      "link": "https://www.ciontek.com/products/smart-pos/cs30.html",
-     "docs": "Photo CS30 + fiche CS30C PDF (WhatsApp 20/11)",
+     "docs": "Photo CS30 + fiche CS30C PDF (WhatsApp 20/11) + proforma PI paypos (23/11)",
      "photo": "assets/excel/f3_r9.png",
      "status": "partiel",
      "ecarte": false,
@@ -1742,23 +1739,23 @@ window.SITE_DATA = {
      "fields": [
       {
        "label": "Prix unitaire (annonce / devis)",
-       "value": "USD 102 / pièce (CS30 2+16 Go) ; USD 111 / pièce (CS30 2+32 Go) ; échantillon : USD 112 / 121"
+       "value": "USD 102 / pièce (CS30 2+16 Go, proforma 23/11, EXW Shenzhen)"
       },
       {
        "label": "Prix pour la quantité demandée",
-       "value": "500 pcs : USD 51 000 (2+16 Go) / USD 55 500 (2+32 Go)"
+       "value": "500 × 102 = USD 51 000 (proforma, hors transport)"
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "NON – pas de logiciel SoftPOS (Jasmine 20/11)"
+       "value": "Pas de logiciel propre ; partenaires SoftPOS : Viva et Stripe"
       },
       {
        "label": "Garantie",
-       "value": "2 % de pièces de rechange (pas de durée en mois)"
+       "value": "2 % de pièces de rechange seulement – pas d'autre garantie"
       },
       {
        "label": "Garantie / SAV en Tunisie",
-       "value": "Non indiqué"
+       "value": "Pas de SAV en Tunisie : réparation par nos soins (pièces à acheter + instructions/vidéos)"
       },
       {
        "label": "Version intégrée borne (même kernel) + fournisseur SoftPOS",
@@ -1775,13 +1772,13 @@ window.SITE_DATA = {
      "category": "Version INTÉGRÉE borne (unattended) du TPE bancaire – 1000 pcs",
      "product": "Ciontek CM30 – terminal de paiement unattended (même kernel que CS50 selon Jasmine)",
      "specs": "Safedroid OS (Android 14) ; Quad-Core A53 2.0 GHz ; 2 Go RAM + 32 Go ; écran 5\" IPS 1280x720 tactile ; lecteur puce ISO7816 + sans contact 14443 A/B (pas de piste magnétique) ; 4G/3G/2G, WiFi 2.4/5 GHz, BT 5.0, GPS ; ports 2×RS232, LAN 100 Mbps, USB-A, USB-C, MDB slave + master, Digital IO, 3×SMA ; 4×PSAM, 2 SIM, micro SD ; alimentation 12–48 V DC ; -20 à 60 °C ; IP54 / IK09 ; 152×93×41 mm, 418 g || Certifications : PCI PTS 6.X, EMV L1&L2, EMV CL L1, Paypass, Paywave, TQM (option Amex, CUP, D-PAS) ; CE, RoHS, FCC, GMS, ATEX",
-     "remarks": "23/11 10:00 : fiche CM30 envoyée dans le groupe Paypos-Ciontek + « CM30 is the unattended model with same kernel as CS50 ». 10:03 : Jasmine demande la quantité pour le modèle unattended. Pas répondu (attente Oussema). 10:06 : quantité 50 pcs donnée à Jasmine (accord Oussema), à inclure dans la proforma avec 1000 CS50 + 500 CS30. 10:09 : CORRECTION envoyée dans le groupe : 1000 pcs CM30 (pas 50) ; proforma = 1000 CM30 + 1000 CS50 + 500 CS30. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema).",
-     "next": "Répondre à Jasmine (comparaison de prix / échantillons) – décision Oussema",
+     "remarks": "23/11 10:00 : fiche CM30 envoyée dans le groupe Paypos-Ciontek + « CM30 is the unattended model with same kernel as CS50 ». 10:03 : Jasmine demande la quantité pour le modèle unattended. Pas répondu (attente Oussema). 10:06 : quantité 50 pcs donnée à Jasmine (accord Oussema), à inclure dans la proforma avec 1000 CS50 + 500 CS30. 10:09 : CORRECTION envoyée dans le groupe : 1000 pcs CM30 (pas 50) ; proforma = 1000 CM30 + 1000 CS50 + 500 CS30. 10:09 : Jasmine demande si la proforma est seulement pour comparer les prix (« normalement nos clients achètent d'abord des échantillons »). Pas répondu (attente Oussema). 10:1x : Jasmine : CM30 version EMV = 165 USD/pièce pour 1000 pcs, transport non inclus. Réponse envoyée : proforma d'abord pour voir les prix, échantillons plus tard. 23/11 10:22 : PROFORMA reçue (« PI paypos.pdf », dossier Ciontek) – vendeur SHENBO Communication Technologies (Hong Kong) Ltd : 1000 CM30 × 165 $ = 165 000 $ ; 1000 CS50 × 115 $ = 115 000 $ ; 500 CS30 × 102 $ = 51 000 $ ; TOTAL 331 000 USD, EXW Shenzhen, transport TBD, délai TBD, paiement T/T 100 % à l'avance (information seulement, rien payé). 10:29 : questions envoyées à Jasmine (infos manquantes) : délai, coût transport vers Tunis (mer/air), garantie en mois, certificats PCI/EMV du CM30, validité de l'offre, SDK avant commande, partenaire SoftPOS. 23/11 : certificats CM30 reçus (lien WeTransfer de Jasmine, dossier « Ciontek - certificats CM30 (23-11) ») : PCI PTS POI v6 n° 4-40423 valide jusqu'au 30/04/2031 ✅ ; EMV Contact L1 n° 18767 0324 430 43d (renouvellement 29/02/2028) ✅ ; EMV Contact L2 kernel EMV v1.0.1 sur Safedroid (CM30) ✅ ; EMV Contactless L1 n° 18834 0424 310 31a (renouvellement 12/04/2028) ✅. 10:42 : Ruby demande si on a déjà importé de Chine et si on a des difficultés pour payer des fournisseurs étrangers depuis la Tunisie. Pas répondu (attente Oussema). 10:46 : réponses de Jasmine : délai 6–8 semaines après paiement (version standard) ; transport vers Tunis : « will check » ; garantie = seulement 2 % de pièces de rechange, PAS d'autre service de garantie (pièces de rechange à acheter + instructions/vidéos de réparation) ; certificats CM30 ✓ ; offre valable 6 mois hors transport (sous réserve prix mémoire/carte mère) ; SDK seulement avec commande d'échantillon ; SoftPOS : partenaires Viva et Stripe. 10:47 : réponse à Ruby envoyée (déjà importé de Chine, pas de problème de paiement, on compare les offres).",
+     "next": "Attendre coût transport vers Tunis (Jasmine « will check »)",
      "linkText": "Site Ciontek",
      "link": "https://www.ciontek.com/",
-     "docs": "Fiche CM30 PDF + image (groupe WhatsApp 23/11)",
+     "docs": "Fiche CM30 PDF + image (groupe WhatsApp 23/11) + proforma PI paypos (23/11) + certificats PCI PTS v6 & EMV L1/L2/CL L1 (23/11)",
      "photo": "assets/excel/f3_r10.png",
-     "status": "attente",
+     "status": "partiel",
      "ecarte": false,
      "folder": "ciontek-whatsapp-86-159-7374-8749-sale-ciontek-com",
      "tokens": [
@@ -1791,27 +1788,27 @@ window.SITE_DATA = {
      "fields": [
       {
        "label": "Prix unitaire (annonce / devis)",
-       "value": "Prix pas encore donné"
+       "value": "USD 165 / pièce (proforma 23/11, EXW Shenzhen)"
       },
       {
        "label": "Prix pour la quantité demandée",
-       "value": "À demander (1000 pcs) – inclus dans la demande de proforma"
+       "value": "1000 × 115 = USD 115 000 (proforma, hors transport)"
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "SoftPOS : NON (Ciontek n'a pas de logiciel)"
+       "value": "Pas de logiciel propre ; partenaires SoftPOS : Viva et Stripe"
       },
       {
        "label": "Garantie",
-       "value": "2 % de pièces de rechange (comme CS50)"
+       "value": "2 % de pièces de rechange seulement – pas d'autre garantie"
       },
       {
        "label": "Garantie / SAV en Tunisie",
-       "value": "Non indiqué"
+       "value": "Pas de SAV en Tunisie : réparation par nos soins (pièces à acheter + instructions/vidéos)"
       },
       {
        "label": "Version intégrée borne (même kernel) + fournisseur SoftPOS",
-       "value": "✅ Version intégrée borne même kernel que CS50 – PCI PTS 6.X + EMV L1&L2"
+       "value": "✅ Version intégrée borne – PCI PTS 6 (jusqu'au 30/04/2031) + EMV L1&L2 + CL L1 confirmés par certificats. SoftPOS : NON (Ciontek)."
       }
      ]
     },
@@ -1820,15 +1817,15 @@ window.SITE_DATA = {
      "row": 12,
      "group": "f3-g3",
      "supplier": "Shenzhen Xinguodu Technology Co., Ltd. (NEXGO)",
-     "contact": "Commercial : Mike – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
+     "contact": "Mike Lee – Regional Sales Manager – lixiaoming@xgd.com – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "NEXGO N92",
      "specs": "os : Android 13 ; cpu : Octa-Core 2.0GHz + security chip ; ram_rom : 2GB+32GB, microSD up to 256GB ; screen : 6.5in HD 1600*720; optional 2.4in 320*240 customer display ; card_readers : Magstripe, chip, contactless ; printer : 58mm thermal, roll dia 40mm, up to 100mm/s ; camera_scan : Rear 2MP (5MP optional), front optional 2MP; optional built-in pro scanner; fingerprint optional ; connectivity : 4G/3G/2G, Wi-Fi 802.11a/b/g/n/ac 2.4&5GHz, BT5.0, GPS/GLONASS/BeiDou; SIM/SAM/eSIM options ; battery : 7.2V/2600mAh (3300mAh optional) ; dimensions_weight : 188x81x68 mm, 465g || Certifications : EMV3.0 L1&L2, Quickpass, Paypass, Paywave, JCB, AMEX, Discover, TQM; PCI 6.X; CE, ATEX, IP54, RoHS/WEEE",
-     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. Pas de POS non certifié : le N82 proposé est certifié EMV/PCI. 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS).",
-     "next": "Attendre proforma Mike (Nexgo) + offre SoftPOS",
+     "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk ni Bluetooth 80 mm au catalogue. Pas de POS non certifié : le N82 proposé est certifié EMV/PCI. 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS). 10:11 : Mike : « I am replying in your email now ». 23/11 10:26 : email de Mike Lee (Regional Sales Manager, lixiaoming@xgd.com, copie tanghuidong@xgd.com) : POS bancaires proposés N92 + N86 Pro (PCI + EMV, SDK + support) ; non bancaire : P300 (le N82 est bancaire) ; imprimante kiosk : demande si on a déjà la borne ou si on veut des bornes complètes (Nexgo fait aussi des bornes) ; imprimante Bluetooth : PAS disponible (en développement) ; SoftPOS : OUI (doc « NEXGO TAP Solution-2026 »). Pas de prix : il demande d'abord (1) usage des 1000/500 POS et pour qui (nos marchands / banques / sociétés de paiement), (2) état de notre développement logiciel, (3) date de déploiement et de livraison. 4 PDF enregistrés (N92, N86 Pro, P300, NEXGO TAP Solution). 10:28 : confirmé à Mike sur WhatsApp que le mail est bien reçu. 10:31 : réponse email à Mike (copie tanghuidong, avec signature) : TPE pour tous nos clients (supermarchés et autres) ; logiciel déjà prêt (besoin SDK) ; livraison décidée après comparaison des offres ; imprimante kiosk = imprimante 80 mm intégrée (on a déjà les bornes) ; devis demandé : 1000 N92/N86 Pro (+ version intégrée), 500 P300, 50 imprimantes kiosk, prix SoftPOS. 10:40 : Mike demande quelles offres de fournisseurs on a déjà reçues. Pas répondu (attente Oussema). 10:47 : réponse à Mike : offres reçues de plusieurs fabricants, noms non communiqués ; on attend son devis.",
+     "next": "Attendre devis Nexgo (Mike)",
      "linkText": "Voir le produit",
      "link": "https://www.nexgoglobal.com/smart-pos/n92.html",
-     "docs": "Photo NEXGO N92 (site, 20/11)",
+     "docs": "Photo NEXGO N92 (site, 20/11) + fiches N92, N86 Pro, P300 + doc SoftPOS NEXGO TAP (email 23/11)",
      "photo": "assets/excel/f3_r12.png",
      "status": "attente",
      "ecarte": false,
@@ -1847,7 +1844,7 @@ window.SITE_DATA = {
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "OUI – NEXGO SoftPOS (Tap-to-Pay sur téléphones/tablettes NFC) – nexgoglobal.com/solutions/SoftPOS.html"
+       "value": "OUI – NEXGO TAP Solution (SoftPOS sur téléphones Android) – doc reçue 23/11"
       },
       {
        "label": "Garantie",
@@ -1868,15 +1865,15 @@ window.SITE_DATA = {
      "row": 13,
      "group": "f3-g3",
      "supplier": "Shenzhen Xinguodu Technology Co., Ltd. (NEXGO)",
-     "contact": "Commercial : Mike – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
+     "contact": "Mike Lee – Regional Sales Manager – lixiaoming@xgd.com – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "NEXGO N86 Pro",
      "specs": "os : Android 13 ; cpu : Quad-Core 2.0GHz + security chip ; ram_rom : 1GB+8GB; optional 2GB+32GB; microSD up to 128GB ; screen : 5.5in HD 1440*720; optional 2.36in customer display ; card_readers : Magstripe, chip, contactless ; printer : High-speed thermal, up to 80mm/s (paper width not stated in table) ; camera_scan : Rear 2MP/5MP optional, front optional 2MP; optional built-in scanning module; fingerprint optional ; connectivity : 4G/3G/2G, Wi-Fi 802.11a/b/g/n/ac 2.4&5GHz, BT5.0, GPS/GLONASS/BeiDou ; battery : 7.2V/2600mAh or 3300mAh ; dimensions_weight : 191.8x78.19x71.26 mm, 428g || Certifications : EMV3.0 L1&L2, Quickpass, Paypass, Paywave, JCB, AMEX, Discover, TQM; PCI 6.X; CE, ATEX, IP54, RoHS/WEEE",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS).",
-     "next": "Attendre proforma Mike (Nexgo) + offre SoftPOS",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS). 10:11 : Mike : « I am replying in your email now ». 23/11 10:26 : email de Mike Lee (Regional Sales Manager, lixiaoming@xgd.com, copie tanghuidong@xgd.com) : POS bancaires proposés N92 + N86 Pro (PCI + EMV, SDK + support) ; non bancaire : P300 (le N82 est bancaire) ; imprimante kiosk : demande si on a déjà la borne ou si on veut des bornes complètes (Nexgo fait aussi des bornes) ; imprimante Bluetooth : PAS disponible (en développement) ; SoftPOS : OUI (doc « NEXGO TAP Solution-2026 »). Pas de prix : il demande d'abord (1) usage des 1000/500 POS et pour qui (nos marchands / banques / sociétés de paiement), (2) état de notre développement logiciel, (3) date de déploiement et de livraison. 4 PDF enregistrés (N92, N86 Pro, P300, NEXGO TAP Solution). 10:28 : confirmé à Mike sur WhatsApp que le mail est bien reçu. 10:31 : réponse email à Mike (copie tanghuidong, avec signature) : TPE pour tous nos clients (supermarchés et autres) ; logiciel déjà prêt (besoin SDK) ; livraison décidée après comparaison des offres ; imprimante kiosk = imprimante 80 mm intégrée (on a déjà les bornes) ; devis demandé : 1000 N92/N86 Pro (+ version intégrée), 500 P300, 50 imprimantes kiosk, prix SoftPOS. 10:40 : Mike demande quelles offres de fournisseurs on a déjà reçues. Pas répondu (attente Oussema). 10:47 : réponse à Mike : offres reçues de plusieurs fabricants, noms non communiqués ; on attend son devis.",
+     "next": "Attendre devis Nexgo (Mike)",
      "linkText": "Voir le produit",
      "link": "https://www.nexgoglobal.com/smart-pos/n86-pro.html",
-     "docs": "Photo NEXGO N86 Pro (site, 20/11)",
+     "docs": "Photo NEXGO N86 Pro (site, 20/11) + fiches N92, N86 Pro, P300 + doc SoftPOS NEXGO TAP (email 23/11)",
      "photo": "assets/excel/f3_r13.png",
      "status": "attente",
      "ecarte": false,
@@ -1895,7 +1892,7 @@ window.SITE_DATA = {
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "OUI – NEXGO SoftPOS (Tap-to-Pay sur téléphones/tablettes NFC) – nexgoglobal.com/solutions/SoftPOS.html"
+       "value": "OUI – NEXGO TAP Solution (SoftPOS sur téléphones Android) – doc reçue 23/11"
       },
       {
        "label": "Garantie",
@@ -1916,20 +1913,21 @@ window.SITE_DATA = {
      "row": 14,
      "group": "f3-g3",
      "supplier": "Shenzhen Xinguodu Technology Co., Ltd. (NEXGO)",
-     "contact": "Commercial : Mike – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
+     "contact": "Mike Lee – Regional Sales Manager – lixiaoming@xgd.com – WhatsApp +86 139 7126 4543 ; Email : sales@xgd.com ; Tél : +86 755 2606 7135 ; Formulaire : nexgoglobal.com/request ; pas de WhatsApp publié",
      "category": "POS Android NON BANCAIRE – 500 pcs",
-     "product": "NEXGO N82 (budget; note: payment-certified model - no non-certified handheld variant found on the site)",
-     "specs": "os : Android 10 ; cpu : Quad-Core Cortex A53 1.5GHz ; ram_rom : 1GB+8GB; optional 2GB+16GB ; screen : 5in FWVGA 854x480 ; card_readers : Magstripe, chip, contactless ; printer : 58mm thermal, roll dia 40mm ; camera_scan : Rear 2MP FF (1D&2D code payments stated) ; connectivity : 4G/3G/2G, Wi-Fi 802.11a/b/g/n 2.4&5GHz, BT4.X, GPS/GLONASS/BeiDou; 2 SIM + 1 SAM ; battery : 3.7V/5200mAh (6600mAh optional) ; dimensions_weight : 198x77x68 mm, 395g || Certifications : EMV L1&L2, EMV CL1, Quickpass, Paypass, PayWave, JCB, AMEX, Discover, TQM; PCI 6.X; CE, FCC, ATEX, IP54, RoHS/WEEE",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS).",
-     "next": "Attendre proforma Mike (Nexgo) + offre SoftPOS",
+     "product": "NEXGO P300 – Non-Financial Smart POS (recommandé par Mike, remplace N82 qui est bancaire)",
+     "specs": "Android 14 GMS ; Quad-core A53 2.0 GHz ; 2 Go + 32 Go (SD 256 Go) ; écran 6.5\" 1600x720 ; NFC (14443 A/B, Mifare, 15693) – compatible SoftPOS / MPoC ; imprimante thermique 58 mm 100 mm/s reçu + étiquette ; caméra arrière 5 MP (scan) ; 4G/3G/2G, WiFi 2.4/5 GHz, BT 5 ; GPS ; batterie 7.7 V 4000 mAh ; IP54, chute 1.2 m || Certifications : FCC, CE, ATEX, IP54, RoHS/WEEE, GMS (pas de certif bancaire – normal pour non bancaire)",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (Oussema.jelloul@akeed.tn → sales@xgd.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à sales@xgd.com. 23/11 09:53 : relance proforma par email (sales@xgd.com). 23/11 08:05-10:01 : Mike (Nexgo) a écrit sur WhatsApp +86 139 7126 4543 : « We received your inquiry for our pos and softpos ». Pas encore de prix. 10:10 : demande de proforma envoyée à Mike sur WhatsApp (4 articles + version intégrée même kernel + détails/prix SoftPOS). 10:11 : Mike : « I am replying in your email now ». 23/11 10:26 : email de Mike Lee (Regional Sales Manager, lixiaoming@xgd.com, copie tanghuidong@xgd.com) : POS bancaires proposés N92 + N86 Pro (PCI + EMV, SDK + support) ; non bancaire : P300 (le N82 est bancaire) ; imprimante kiosk : demande si on a déjà la borne ou si on veut des bornes complètes (Nexgo fait aussi des bornes) ; imprimante Bluetooth : PAS disponible (en développement) ; SoftPOS : OUI (doc « NEXGO TAP Solution-2026 »). Pas de prix : il demande d'abord (1) usage des 1000/500 POS et pour qui (nos marchands / banques / sociétés de paiement), (2) état de notre développement logiciel, (3) date de déploiement et de livraison. 4 PDF enregistrés (N92, N86 Pro, P300, NEXGO TAP Solution). 10:28 : confirmé à Mike sur WhatsApp que le mail est bien reçu. 10:31 : réponse email à Mike (copie tanghuidong, avec signature) : TPE pour tous nos clients (supermarchés et autres) ; logiciel déjà prêt (besoin SDK) ; livraison décidée après comparaison des offres ; imprimante kiosk = imprimante 80 mm intégrée (on a déjà les bornes) ; devis demandé : 1000 N92/N86 Pro (+ version intégrée), 500 P300, 50 imprimantes kiosk, prix SoftPOS. 10:40 : Mike demande quelles offres de fournisseurs on a déjà reçues. Pas répondu (attente Oussema). 10:47 : réponse à Mike : offres reçues de plusieurs fabricants, noms non communiqués ; on attend son devis.",
+     "next": "Attendre devis Nexgo (Mike)",
      "linkText": "Voir le produit",
      "link": "https://www.nexgoglobal.com/smart-pos/n82.html",
-     "docs": "Photo NEXGO N82 (site, 20/11)",
-     "photo": "assets/excel/f3_r14.png",
+     "docs": "Photo + fiche P300 PDF (email Mike 23/11)",
+     "photo": "assets/excel/f3_r14.jpg",
      "status": "attente",
      "ecarte": false,
      "folder": "nexgo-xinguodu-86-755-2606-7135-sales-xgd-com",
      "tokens": [
+      "p300",
       "n82"
      ],
      "fields": [
@@ -1943,7 +1941,7 @@ window.SITE_DATA = {
       },
       {
        "label": "Solution SoftPOS ?",
-       "value": "OUI – NEXGO SoftPOS (Tap-to-Pay sur téléphones/tablettes NFC) – nexgoglobal.com/solutions/SoftPOS.html"
+       "value": "OUI – NEXGO TAP Solution ; P300 compatible SoftPOS (MPoC)"
       },
       {
        "label": "Garantie",
@@ -1967,7 +1965,7 @@ window.SITE_DATA = {
      "contact": "Commerciale Tunisie : Sherri Hu – shiyu.hu@sunmi.com ; Akbar (SUNMI MEA) ; Email : sunmiglobal@sunmi.com / mea@sunmi.com (Moyen-Orient & Afrique) ; Formulaire : sunmi.com/en/leads ; pas de WhatsApp publié",
      "category": "POS Android BANCAIRE (EMV L1 & L2) – 1000 pcs",
      "product": "SUNMI P3H (P3 Family; newer P3Hs / P3Hs DUAL variants on same page)",
-     "specs": "OS : SUNMI OS based on Android 11 (P3H); P3H DUAL Android 14; base P3 Android 11 Go ; CPU : Octa-Core 4xA53 2.2GHz + 4xA53 1.6GHz (P3H); P3Hs: Qualcomm Octa-Core up to 2.4GHz ; RAM_ROM : 4GB RAM + 64GB ROM (P3H); P3Hs 4+64 (3+64 optional); base P3 2GB+32GB in spec table ; screen : 6.75 inch TFT HD+ 720x1600 IPS (P3Hs: 420 nits) ; card_readers : Magstripe 1/2/3 track bi-directional (ISO7810/7811); IC card ISO7816; NFC Type A&B, Mifare, ISO/IEC 14443, EMV, PayPass, PayWave; 2x PSAM ; printer : Thermal 70mm/s, 58mm paper / 40mm roll diameter (P3Hs: 100mm/s quick-release printer) ; camera_scan : Rear 5MP AF (13MP AF optional), front 2MP FF; 1D/2D professional scanner SS1104 optional ; connectivity : 2G/3G/4G; Wi-Fi 2.4/5GHz 802.11a/b/g/n/ac; Bluetooth 5.0 BLE; GPS/Glonass/Beidou/Galileo ; battery : Removable Li-ion 7.7V/2630mAh ; other : Optional fiscal module, eSIM optional; 201.4x80x17mm, ~400g; spec-table product model T6F10 || Certifications : Family-level 'Payment Method & Certification' section: PCI PTS 6.X Security Standards Compliance; EMV Certification; MasterCard PayPass Approval; Visa PayWave Approval; American Express Certification; UnionPay Network Access License. P3Hs / P3Hs DUAL cards say 'PCI7.x Compliant'. Which certificate applies to which exact variant is not stated, so confirm with SUNMI.",
+     "specs": "OS : SUNMI OS based on Android 11 (P3H); P3H DUAL Android 14; base P3 Android 11 Go ; CPU : Octa-Core 4xA53 2.2GHz + 4xA53 1.6GHz (P3H); P3Hs: Qualcomm Octa-Core up to 2.4GHz ; RAM_ROM : 4GB RAM + 64GB ROM (P3H); P3Hs 4+64 (3+64 optional); base P3 2GB+32GB in spec table ; screen : 6.75 inch TFT HD+ 720x1600 IPS (P3Hs: 420 nits) ; card_readers : Magstripe 1/2/3 track bi-directional (ISO7810/7811); IC card ISO7816; NFC Type A&B, Mifare, ISO/IEC 14443, EMV, PayPass, PayWave; 2x PSAM ; printer : Thermal 70mm/s, 58mm paper / 40mm roll diameter (P3Hs: 100mm/s quick-release printer) ; camera_scan : Rear 5MP AF (13MP AF optional), front 2MP FF; 1D/2D professional scanner SS1104 optional ; connectivity : 2G/3G/4G; Wi-Fi 2.4/5GHz 802.11a/b/g/n/ac; Bluetooth 5.0 BLE; GPS/Glonass/Beidou/Galileo ; battery : Removable Li-ion 7.7V/2630mAh ; other : Optional fiscal module, eSIM optional; 201.4x80x17mm, ~400g; spec-table product model T6F10 || Certifications : Family-level 'Payment Method & Certification' section: PCI PTS 6.X Security Standards Compliance; EMV Certification; MasterCard PayPass Approval; Visa PayWave Approval; American Express Certification; UnionPay Network Access License. P3Hs / P3Hs DUAL cards say 'PCI7.x Compliant'. Which certificate applies to which exact variant is not stated, so confirm with SUNMI. || Fiche P3 reçue (20/11) : Android 11 Go, 2+32 Go, 6.75\" 720x1600, imprimante 58 mm 70 mm/s, scanner 2D option ; confirmé par Akbar : PCI PTS 6 + EMV L1/L2, NFC compatible SoftPOS.",
      "remarks": "Trouvé sur le site officiel (20/11). Pas d'imprimante kiosk au catalogue. 20/11 10:29 : demande de prix envoyée par email (→ mea@sunmi.com, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 20/11 10:40 : réponse email d'Akbar (SUNMI MEA) : pas de prix ; demande détails du projet, exigences de la banque, pays de la société et lieu de déploiement. Fiche technique P3 envoyée (P3 de base : Android 11 Go, 2+32 Go, 6.75\", imprimante 58 mm 70 mm/s, PCI & EMV, scanner 2D en option). 10:46 : réponse envoyée à Akbar (email avec signature) : société et déploiement en Tunisie, POS bancaire EMV L1/L2 + PCI PTS pour validation banque/acquéreur, POS non bancaire pour QR + tickets ; prix et SoftPOS redemandés. 10:56 : Akbar : Sherri Hu (Sales Manager Tunisie, shiyu.hu@sunmi.com) va envoyer les prix ; P3 = PCI PTS 6 + EMV L1/L2, NFC compatible SoftPOS. (Copie : Nidal Y. Jaber, nidal.jaber@sunmi.com) 23/11 08:46 : email de Sherri HU (Overseas Sales Manager North Africa, shiyu.hu@sunmi.com, WhatsApp +86 180 1750 7830) : propose un appel. 23/11 09:34 : Sherri a écrit sur WhatsApp (« Bonjour Mr Oussema, je m'appelle Sherri de Sunmi »). Pas de prix encore. Pas répondu. 23/11 09:58 : réponse WhatsApp à Sherri (en français) : proforma urgente 4 articles + version intégrée + SoftPOS, avant tout appel.",
      "next": "Attendre proforma Sherri (Sunmi)",
      "linkText": "Voir le produit",
@@ -2734,12 +2732,12 @@ window.SITE_DATA = {
      "row": 36,
      "group": "f3-g8",
      "supplier": "Zhuhai Xprinter Electronic Technology",
-     "contact": "Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
+     "contact": "Kumiko Mo – kumiko@xprinter.net / +86 136 7269 6575 ; équipe marché : sales11@xprinter.net ; Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
      "category": "Imprimante KIOSK (intégrée 80 mm) – 50 pcs",
      "product": "XP-MP80AC (80mm kiosk printer)",
      "specs": "print_method : Direct thermal ; resolution : 576 dots/line (equals 203 dpi; the page does not state dpi) ; speed : 200 mm/s ; paper_width : 58/80mm (print 48/72mm), roll diameter 80mm ; cutter : Auto cutter (product is in the kiosk series and listed with the cutter, but this page's spec table has no cutter row; UNVERIFIED detail) ; interfaces : USB + Serial ; power : DC 24V/2.5A; cash drawer DC 24V/1A ; drivers_sdk : Drivers Windows/Linux/Android; ESC/POS ; other : Paper, blockage and black-mark sensors; page mode; print head life 100km; 127x127x100mm, 797.5g",
-     "remarks": "Trouvé sur le site officiel (20/11). Pas de POS Android au catalogue (imprimantes seulement). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth).",
-     "next": "Attendre proforma Xprinter",
+     "remarks": "Trouvé sur le site officiel (20/11). Pas de POS Android au catalogue (imprimantes seulement). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth). 23/11 10:12 : email de Kumiko Mo (kumiko@xprinter.net, +86 136 7269 6575) : « notre équipe chargée de votre marché va vous contacter » ; transféré à sales11@xprinter.net (Jasmine chez Xprinter). Pas de prix.",
+     "next": "Attendre contact de l'équipe Xprinter (sales11@xprinter.net)",
      "linkText": "Voir le produit",
      "link": "https://www.xprintertech.com/xp-mp80ac",
      "docs": "Photo XP-MP80AC (site, 20/11)",
@@ -2782,12 +2780,12 @@ window.SITE_DATA = {
      "row": 37,
      "group": "f3-g8",
      "supplier": "Zhuhai Xprinter Electronic Technology",
-     "contact": "Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
+     "contact": "Kumiko Mo – kumiko@xprinter.net / +86 136 7269 6575 ; équipe marché : sales11@xprinter.net ; Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
      "category": "Imprimante KIOSK (intégrée 80 mm) – 50 pcs",
      "product": "XP-MP803C (80mm kiosk printer)",
      "specs": "print_method : Direct thermal ; resolution : 576 dots/line ; speed : 250 mm/s in the spec table (the bullet text on the same page says 160mm/s) ; paper_width : 58/80mm, print width 72mm ; cutter : Auto cutter, full or partial cut, 1 million cuts ; interfaces : USB + Serial ; power : DC 24V/2.5A; cash drawer DC 24V/1A ; drivers_sdk : Drivers Windows/Linux/Android; the page also says it works with Windows, Android and iOS ; other : Paper-out and paper-low alarms; print head life 100km; 131.9x114.9x91mm, 0.393kg",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth).",
-     "next": "Attendre proforma Xprinter",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth). 23/11 10:12 : email de Kumiko Mo (kumiko@xprinter.net, +86 136 7269 6575) : « notre équipe chargée de votre marché va vous contacter » ; transféré à sales11@xprinter.net (Jasmine chez Xprinter). Pas de prix.",
+     "next": "Attendre contact de l'équipe Xprinter (sales11@xprinter.net)",
      "linkText": "Voir le produit",
      "link": "https://www.xprintertech.com/xp-mp803c",
      "docs": "Photo XP-MP803C (site, 20/11)",
@@ -2830,12 +2828,12 @@ window.SITE_DATA = {
      "row": 38,
      "group": "f3-g8",
      "supplier": "Zhuhai Xprinter Electronic Technology",
-     "contact": "Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
+     "contact": "Kumiko Mo – kumiko@xprinter.net / +86 136 7269 6575 ; équipe marché : sales11@xprinter.net ; Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
      "category": "Imprimante BLUETOOTH (80 mm) – 400 pcs",
      "product": "XP-Q80K 80mm Thermal Receipt Printer (Bluetooth option)",
      "specs": "print_method : Direct thermal ; resolution : 203 dpi ; speed : 230 mm/s or 260 mm/s depending on version ; paper_width : 79.5mm (80mm), print width 72mm ; cutter : Auto cutter, partial cut, 1.5 million cuts ; interfaces : USB (BT / WiFi / BT+WiFi optional); USB+Serial; USB+LAN (BT/WiFi/BT+WiFi optional); USB+Serial+LAN (BT/WiFi/BT+WiFi optional) ; power : Adapter AC 100-240V, output DC 24V/2.5A; cash drawer DC 24V/1A ; drivers_sdk : ESC/POS; drivers Windows/Linux/Mac OS/Android ; other : Print head life 150km; 0.89kg; 168x130x123.5mm",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth).",
-     "next": "Attendre proforma Xprinter",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth). 23/11 10:12 : email de Kumiko Mo (kumiko@xprinter.net, +86 136 7269 6575) : « notre équipe chargée de votre marché va vous contacter » ; transféré à sales11@xprinter.net (Jasmine chez Xprinter). Pas de prix.",
+     "next": "Attendre contact de l'équipe Xprinter (sales11@xprinter.net)",
      "linkText": "Voir le produit",
      "link": "https://www.xprintertech.com/xp-q80k-1",
      "docs": "Photo XP-Q80K 80mm Thermal Receipt Printer (site, 20/11)",
@@ -2878,12 +2876,12 @@ window.SITE_DATA = {
      "row": 39,
      "group": "f3-g8",
      "supplier": "Zhuhai Xprinter Electronic Technology",
-     "contact": "Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
+     "contact": "Kumiko Mo – kumiko@xprinter.net / +86 136 7269 6575 ; équipe marché : sales11@xprinter.net ; Email : overseas@xprinter.net ; Tél : +86 756 3932978 ; Formulaire : xprintertech.com/contact-us.html ; pas de WhatsApp publié",
      "category": "Imprimante BLUETOOTH (80 mm) – 400 pcs",
      "product": "XP-P802A 80mm Mobile Receipt Printer (mobile option)",
      "specs": "print_method : Direct thermal ; resolution : 203 dpi ; speed : 70 mm/s ; paper_width : 58 or 80mm, print width 72mm, roll diameter 50mm ; cutter : none listed ; interfaces : USB + Bluetooth ; power : 7.4V/1500mAh battery, 2h charge, DC 5V/2A input ; drivers_sdk : ESC/POS; Windows/Android/iOS/Linux ; other : 337.7g; 122.5x109x63mm; print head life 50km",
-     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth).",
-     "next": "Attendre proforma Xprinter",
+     "remarks": "Trouvé sur le site officiel (20/11). 20/11 10:29 : demande de prix envoyée par email (→ overseas@xprinter.net, avec signature) : 1000 POS bancaires, 500 non bancaires, 50 kiosk, 400 Bluetooth + certificats EMV/PCI + question SoftPOS. 23/11 : pas de réponse à overseas@xprinter.net. 23/11 09:53 : relance proforma par email (imprimantes kiosk + Bluetooth). 23/11 10:12 : email de Kumiko Mo (kumiko@xprinter.net, +86 136 7269 6575) : « notre équipe chargée de votre marché va vous contacter » ; transféré à sales11@xprinter.net (Jasmine chez Xprinter). Pas de prix.",
+     "next": "Attendre contact de l'équipe Xprinter (sales11@xprinter.net)",
      "linkText": "Voir le produit",
      "link": "https://www.xprintertech.com/xp-p802a",
      "docs": "Photo XP-P802A 80mm Mobile Receipt Printer (site, 20/11)",
@@ -3196,6 +3194,38 @@ window.SITE_DATA = {
      "size": 1709237
     },
     {
+     "name": "CM30 EMV Contact L1.pdf",
+     "title": "CM30 EMV Contact L1",
+     "sub": "Ciontek - certificats CM30 (23-11)",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20certificats%20CM30%20%2823-11%29/CM30%20EMV%20Contact%20L1.pdf",
+     "size": 284042
+    },
+    {
+     "name": "CM30 EMV Contact L2.pdf",
+     "title": "CM30 EMV Contact L2",
+     "sub": "Ciontek - certificats CM30 (23-11)",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20certificats%20CM30%20%2823-11%29/CM30%20EMV%20Contact%20L2.pdf",
+     "size": 162915
+    },
+    {
+     "name": "CM30 EMV Contactless L1.pdf",
+     "title": "CM30 EMV Contactless L1",
+     "sub": "Ciontek - certificats CM30 (23-11)",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20certificats%20CM30%20%2823-11%29/CM30%20EMV%20Contactless%20L1.pdf",
+     "size": 393969
+    },
+    {
+     "name": "CM30 PCI PTS.pdf",
+     "title": "CM30 PCI PTS",
+     "sub": "Ciontek - certificats CM30 (23-11)",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20certificats%20CM30%20%2823-11%29/CM30%20PCI%20PTS.pdf",
+     "size": 20590
+    },
+    {
      "name": "CS10 EMV Contact L1 General Terms and Conditions.pdf",
      "title": "CS10 EMV Contact L1 General Terms and Conditions",
      "sub": "Ciontek - certificats EMV PCI (20-11)",
@@ -3347,6 +3377,14 @@ window.SITE_DATA = {
      "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20message%20demande%20de%20prix%20envoye%20%2820-11%29.txt",
      "size": 817,
      "text": "Hello,\n\nWe are interested in your products and would like to receive your best price offer for the following quantities:\n\n1) 1000 pcs - Android banking POS terminal, EMV L1 & L2 certified (PCI PTS preferred)\n   Models we looked at: CS50 and CS10\n2) 500 pcs - Android non-banking POS terminal (58mm printer, QR scan, 4G/WiFi)\n   Models we looked at: CS30\n3) 50 pcs - Kiosk printer (embedded, 80mm, auto cutter) - if available in your range\n4) 400 pcs - Bluetooth receipt printer (80mm) - if available in your range\n\nFor each item, could you please send:\n- Unit price for the quantity above (EXW and FOB)\n- Valid EMV / PCI certificates for the banking POS\n- Datasheet, SDK availability, warranty period and lead time\n\nAlso: do you offer a SoftPOS solution (Tap to Pay on Android phones)?\n\nThank you.\n"
+    },
+    {
+     "name": "Ciontek - proforma PI paypos (23-11).pdf",
+     "title": "Ciontek - proforma PI paypos (23-11)",
+     "sub": "",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Ciontek%20%28WhatsApp%20%2B86%20159%207374%208749%20-%20sale%40ciontek.com%29/Ciontek%20-%20proforma%20PI%20paypos%20%2823-11%29.pdf",
+     "size": 260499
     }
    ]
   },
@@ -3436,6 +3474,14 @@ window.SITE_DATA = {
      "kind": "image",
      "url": "data/Fournisseurs_Bornes_Multifonction/HCCTG%20Huachen%20Lianchuang%20%28%2B86%20134%202866%205926%20-%20info%40szhcct.com%29/HCCTG%20-%20QR34%20imprimante%20kiosk%2080mm%20%2820-11%29.jpg",
      "size": 204449
+    },
+    {
+     "name": "HCCTG - Z300P POS Android non bancaire (proposition 23-11).jpg",
+     "title": "HCCTG - Z300P POS Android non bancaire (proposition 23-11)",
+     "sub": "",
+     "kind": "image",
+     "url": "data/Fournisseurs_Bornes_Multifonction/HCCTG%20Huachen%20Lianchuang%20%28%2B86%20134%202866%205926%20-%20info%40szhcct.com%29/HCCTG%20-%20Z300P%20POS%20Android%20non%20bancaire%20%28proposition%2023-11%29.jpg",
+     "size": 185033
     },
     {
      "name": "HCCTG - Z500 POS Android bancaire EMV PCI (20-11).jpg",
@@ -3648,6 +3694,22 @@ window.SITE_DATA = {
      "text": "Subject: Price request - Android POS terminals and printers\n\nHello,\n\nWe are interested in your products and would like to receive your best price offer for the following quantities:\n\n1) 1000 pcs - Android banking POS terminal, EMV L1 & L2 certified (PCI PTS preferred)\n   Models we looked at: N92 and N86 Pro\n2) 500 pcs - Android non-banking POS terminal (58mm printer, QR scan, 4G/WiFi)\n   Models we looked at: N82\n3) 50 pcs - Kiosk printer (embedded, 80mm, auto cutter) - if available in your range\n4) 400 pcs - Bluetooth receipt printer (80mm) - if available in your range\n\nFor each item, could you please send:\n- Unit price for the quantity above (EXW and FOB)\n- Valid EMV / PCI certificates for the banking POS\n- Datasheet, SDK availability, warranty period and lead time\n\nAlso: do you offer a SoftPOS solution (Tap to Pay on Android phones)?\n\nThank you.\n"
     },
     {
+     "name": "Nexgo - N86PRO.pdf",
+     "title": "Nexgo - N86PRO",
+     "sub": "",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20N86PRO.pdf",
+     "size": 335309
+    },
+    {
+     "name": "Nexgo - N92.pdf",
+     "title": "Nexgo - N92",
+     "sub": "",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20N92.pdf",
+     "size": 318216
+    },
+    {
      "name": "Nexgo - NEXGO N82 non-banking POS (20-11).png",
      "title": "Nexgo - NEXGO N82 non-banking POS (20-11)",
      "sub": "",
@@ -3670,6 +3732,30 @@ window.SITE_DATA = {
      "kind": "image",
      "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20NEXGO%20N92%20banking%20POS%20%2820-11%29.png",
      "size": 30568
+    },
+    {
+     "name": "Nexgo - NEXGO TAP Solution-2026.pdf",
+     "title": "Nexgo - NEXGO TAP Solution-2026",
+     "sub": "",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20NEXGO%20TAP%20Solution-2026.pdf",
+     "size": 4974936
+    },
+    {
+     "name": "Nexgo - P300 POS non bancaire (23-11).png",
+     "title": "Nexgo - P300 POS non bancaire (23-11)",
+     "sub": "",
+     "kind": "image",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20P300%20POS%20non%20bancaire%20%2823-11%29.png",
+     "size": 1685322
+    },
+    {
+     "name": "Nexgo - P300.pdf",
+     "title": "Nexgo - P300",
+     "sub": "",
+     "kind": "pdf",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Nexgo%20Xinguodu%20%28%2B86%20755%202606%207135%20-%20sales%40xgd.com%29/Nexgo%20-%20P300.pdf",
+     "size": 452822
     }
    ]
   },
@@ -4122,6 +4208,14 @@ window.SITE_DATA = {
      "kind": "image",
      "url": "data/Fournisseurs_Bornes_Multifonction/Urovo%20%28urovo%40urovo.com%29/Urovo%20-%20i9200%20vue%202%20%2820-11%29.png",
      "size": 805371
+    },
+    {
+     "name": "Urovo - K329 imprimante mobile (23-11).jpg",
+     "title": "Urovo - K329 imprimante mobile (23-11)",
+     "sub": "",
+     "kind": "image",
+     "url": "data/Fournisseurs_Bornes_Multifonction/Urovo%20%28urovo%40urovo.com%29/Urovo%20-%20K329%20imprimante%20mobile%20%2823-11%29.jpg",
+     "size": 83693
     },
     {
      "name": "Urovo - message demande de prix envoye (20-11).txt",
